@@ -1,0 +1,480 @@
+Step-by-Step Learning Plan: Basic Implementation + Math + Number Theory
+
+Step 1: Basic Implementation Concepts
+Topics:
+- Reading/writing input and output
+- Simple loops and conditionals
+- Working with arrays/vectors
+- Simple math operations (addition, subtraction, multiplication, division)
+- Basic simulation
+
+Codeforces Problems:
+1. Watermelon - 4A (https://codeforces.com/problemset/problem/4/A)
+2. Way Too Long Words - 71A (https://codeforces.com/problemset/problem/71/A)
+3. Next Round - 158A (https://codeforces.com/problemset/problem/158/A)
+4. Petya and Strings - 112A (https://codeforces.com/problemset/problem/112/A)
+5. Bit++ - 282A (https://codeforces.com/problemset/problem/282/A)
+6. Way Too Long Words - 71A (https://codeforces.com/problemset/problem/71/A)
+7. Domino piling - 50A (https://codeforces.com/problemset/problem/50/A)
+8. Beautiful Matrix - 263A (https://codeforces.com/problemset/problem/263/A)
+9. Helpful Maths - 339A (https://codeforces.com/problemset/problem/339/A)
+10. HQ9+ - 133A (https://codeforces.com/problemset/problem/133/A)
+
+---
+
+Step 2: Basic Math
+Topics:
+- Divisibility and modulo operations
+- Powers and exponentiation
+- Factorials and basic combinatorics
+- GCD and LCM basics
+- Prime numbers introduction
+
+Codeforces Problems:
+1. Divisibility Problem - 75A (https://codeforces.com/problemset/problem/75/A)
+2. Remainder - 279A (https://codeforces.com/problemset/problem/279/A)
+3. GCD Problem - 580A (https://codeforces.com/problemset/problem/580/A)
+4. LCM Problem - 200B (https://codeforces.com/problemset/problem/200/B)
+5. Calculating Factorials - 623A (https://codeforces.com/problemset/problem/623/A)
+6. Powers of Two - 742A (https://codeforces.com/problemset/problem/742/A)
+7. Number of Divisors - 577A (https://codeforces.com/problemset/problem/577/A)
+8. Simple GCD - 514A (https://codeforces.com/problemset/problem/514/A)
+9. Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A)
+10. Prime Checker - 122A (https://codeforces.com/problemset/problem/122/A)
+
+---
+
+Step 3: Number Theory Basics
+Topics:
+- Prime factorization
+- Sieve of Eratosthenes
+- Modular arithmetic properties
+- Modular inverses (basic)
+- Euler’s Totient function (intro)
+
+Codeforces Problems:
+1. Prime Factorization - 147A (https://codeforces.com/problemset/problem/147/A)
+2. Sieve of Eratosthenes Practice - 214A (https://codeforces.com/problemset/problem/214/A)
+3. Modular Arithmetic - 279B (https://codeforces.com/problemset/problem/279/B)
+4. Modular Inverse Intro - 476B (https://codeforces.com/problemset/problem/476/B)
+5. Euler’s Totient Basics - 797A (https://codeforces.com/problemset/problem/797/A)
+6. Number of Divisors - 1352C (https://codeforces.com/problemset/problem/1352/C)
+7. Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A)
+8. Lucky Numbers - 145A (https://codeforces.com/problemset/problem/145/A)
+9. Sieve for Multiple Queries - 1037A (https://codeforces.com/problemset/problem/1037/A)
+10. Simple Modular Problems - 4C (https://codeforces.com/problemset/problem/4/C)
+
+---
+
+Step 4: Advanced Number Theory Basics
+Topics:
+- Fast modular exponentiation (binary exponentiation)
+- Extended Euclidean algorithm
+- Chinese Remainder Theorem basics
+- Basics of prime testing
+
+Codeforces Problems:
+1. Fast Exponentiation - 242B (https://codeforces.com/problemset/problem/242/B)
+2. Extended Euclid Application - 476C (https://codeforces.com/problemset/problem/476/C)
+3. CRT Intro - 577B (https://codeforces.com/problemset/problem/577/B)
+4. Power Mod Problem - 31A (https://codeforces.com/problemset/problem/31/A)
+5. Linear Diophantine Equations - 344A (https://codeforces.com/problemset/problem/344/A)
+6. Modulo Inverse - 476B (https://codeforces.com/problemset/problem/476/B)
+7. Binary Exponentiation - 527A (https://codeforces.com/problemset/problem/527/A)
+8. CRT Simple Use - 766A (https://codeforces.com/problemset/problem/766/A)
+9. Prime Check - 26A (https://codeforces.com/problemset/problem/26/A)
+10. Number Theory Practice - 224B (https://codeforces.com/problemset/problem/224/B)
+
+---
+
+How to use:
+- Study theory from online tutorials (CP-Algorithms, GeeksforGeeks, YouTube).
+- Solve the listed problems in order.
+- Read editorials if stuck.
+- Repeat for mastery.
+- Move on to next topic when ready.
+
+---
+
+
+
+Step 5: Intermediate Number Theory and Implementation Techniques
+
+Topics:
+- Modular arithmetic advanced (modular exponentiation, inverse, Fermat's Little Theorem)
+- Prime factorization optimization
+- Segmented sieve
+- Basic combinatorics: permutations, combinations, Pascal's triangle
+- Inclusion-Exclusion principle
+- Basic recurrence relations and dynamic programming introduction
+- Implementation techniques: two pointers, prefix sums, binary search on answer
+
+Codeforces Problems:
+1. Modular Exponentiation Practice - 1095C (https://codeforces.com/problemset/problem/1095/C)
+2. Fermat's Little Theorem - 476C (https://codeforces.com/problemset/problem/476/C)
+3. Segmented Sieve - 665A (https://codeforces.com/problemset/problem/665/A)
+4. Combinations Counting - 118D (https://codeforces.com/problemset/problem/118/D)
+5. Pascal's Triangle - 644B (https://codeforces.com/problemset/problem/644/B)
+6. Inclusion-Exclusion - 416C (https://codeforces.com/problemset/problem/416/C)
+7. Recurrence Relations - 431C (https://codeforces.com/problemset/problem/431/C)
+8. Two Pointers Technique - 279C (https://codeforces.com/problemset/problem/279/C)
+9. Prefix Sums - 1352B (https://codeforces.com/problemset/problem/1352/B)
+10. Binary Search on Answer - 20C (https://codeforces.com/problemset/problem/20/C)
+
+---
+
+How to use:
+- Study advanced modular arithmetic, combinatorics, and implementation techniques through tutorials.
+- Practice these specific problems to get comfortable with intermediate techniques.
+- Focus on understanding problem-solving patterns like two pointers and prefix sums.
+- Apply concepts in contests or practice rounds.
+
+
+
+Topics:
+- Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick)
+- Binary Search (on array & answer)
+- Two Pointers
+- Recursion & Backtracking (basics)
+- Bit Manipulation (set, unset, count bits, parity)
+- STL (Standard Template Library): vector, map, set, pair
+
+Codeforces Problems:
+1. Binary Search Basic - 118A (https://codeforces.com/problemset/problem/118/A)
+2. Lower Bound, Upper Bound - 474A (https://codeforces.com/problemset/problem/474/A)
+3. Two Pointers + Sorting - 160A (https://codeforces.com/problemset/problem/160/A)
+4. Sorting and Greedy - 144A (https://codeforces.com/problemset/problem/144/A)
+5. Recursion Base Practice - 1352C (https://codeforces.com/problemset/problem/1352/C)
+6. Backtracking Intro - 580C (https://codeforces.com/problemset/problem/580/C)
+7. Bitwise Operation - 282A (https://codeforces.com/problemset/problem/282/A)
+8. Count Set Bits - 476A (https://codeforces.com/problemset/problem/476/A)
+9. Bit Tricks Practice - 131A (https://codeforces.com/problemset/problem/131/A)
+10. STL Practice - 520A (https://codeforces.com/problemset/problem/520/A)
+
+How to use:
+- Learn sorting algorithms, STL, and recursion/bitwise techniques.
+- Practice on simple problems first, then solve the listed CF problems.
+- Focus on implementation and speed of thinking.
+
+
+
+Topics:
+- Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick)
+- Binary Search (on array & answer)
+- Two Pointers
+- Recursion & Backtracking (basics)
+- Bit Manipulation (set, unset, count bits, parity)
+- STL (Standard Template Library): vector, map, set, pair
+
+Codeforces Problems:
+1. Binary Search Basic - 118A (https://codeforces.com/problemset/problem/118/A)
+2. Lower Bound, Upper Bound - 474A (https://codeforces.com/problemset/problem/474/A)
+3. Two Pointers + Sorting - 160A (https://codeforces.com/problemset/problem/160/A)
+4. Sorting and Greedy - 144A (https://codeforces.com/problemset/problem/144/A)
+5. Recursion Base Practice - 1352C (https://codeforces.com/problemset/problem/1352/C)
+6. Backtracking Intro - 580C (https://codeforces.com/problemset/problem/580/C)
+7. Bitwise Operation - 282A (https://codeforces.com/problemset/problem/282/A)
+8. Count Set Bits - 476A (https://codeforces.com/problemset/problem/476/A)
+9. Bit Tricks Practice - 131A (https://codeforces.com/problemset/problem/131/A)
+10. STL Practice - 520A (https://codeforces.com/problemset/problem/520/A)
+
+How to use:
+- Learn sorting algorithms, STL, and recursion/bitwise techniques.
+- Practice on simple problems first, then solve the listed CF problems.
+- Focus on implementation and speed of thinking.
+
+
+
+
+Topics:
+- Greedy Strategy and Pattern
+- Greedy vs Brute Force
+- Greedy + Sorting
+- Introduction to DP (memoization, tabulation)
+- 1D DP Basics (Fibonacci-style)
+- DP with states (like dp[i][j])
+- Overlapping Subproblems and Optimal Substructure
+
+Codeforces Greedy Problems:
+1. Coin Problem (Greedy) - 996A (https://codeforces.com/problemset/problem/996/A)
+2. Easy Scheduling - 1030A (https://codeforces.com/problemset/problem/1030/A)
+3. Easy Task Scheduling - 160A (https://codeforces.com/problemset/problem/160/A)
+4. Team Formation - 231A (https://codeforces.com/problemset/problem/231/A)
+5. Gifts Distribution - 136A (https://codeforces.com/problemset/problem/136/A)
+6. Restoring Order - 556A (https://codeforces.com/problemset/problem/556/A)
+7. Vanya and Lanterns - 492B (https://codeforces.com/problemset/problem/492/B)
+8. Beru-taxi - 706B (https://codeforces.com/problemset/problem/706/B)
+9. New Year and Hurry - 750A (https://codeforces.com/problemset/problem/750/A)
+10. Lucky Ticket - 146A (https://codeforces.com/problemset/problem/146/A)
+
+Codeforces Beginner DP Problems:
+1. Frog 1 - 1071A (https://codeforces.com/contest/1071/problem/A)
+2. Maximum Subarray Sum - 1490C (https://codeforces.com/problemset/problem/1490/C)
+3. 1D DP Practice - 1037C (https://codeforces.com/problemset/problem/1037/C)
+4. Make Equal - 1401B (https://codeforces.com/problemset/problem/1401/B)
+5. Sum and Replace - 1374C (https://codeforces.com/problemset/problem/1374/C)
+6. Coin Change 1D DP - 1256A (https://codeforces.com/problemset/problem/1256/A)
+7. Even/Odd DP - 1399A (https://codeforces.com/problemset/problem/1399/A)
+8. Binary Strings DP - 1294C (https://codeforces.com/problemset/problem/1294/C)
+9. LCS Intro (DP state [i][j]) - 1451A (https://codeforces.com/problemset/problem/1451/A)
+10. Fib Tabulation DP - 1343A (https://codeforces.com/problemset/problem/1343/A)
+
+How to use:
+- Learn Greedy problems first — figure out when greedy works and when it fails.
+- Watch DP beginner tutorials (e.g., Fibonacci with memoization/tabulation).
+- Solve the listed problems in order of difficulty.
+- Focus on writing recursive solutions, then convert them to DP.
+
+
+
+
+
+Topics:
+- 2D Dynamic Programming (dp[i][j] style)
+- 0/1 Knapsack Problem
+- Unbounded Knapsack
+- Longest Common Subsequence (LCS)
+- Longest Increasing Subsequence (LIS)
+- DP on Strings
+- Bitmask DP (subset states)
+- Optimization Techniques (e.g., prefix sums in DP, monotonicity)
+
+Codeforces Advanced DP Problems:
+1. 0/1 Knapsack Base - 16B (https://codeforces.com/problemset/problem/16/B)
+2. Unbounded Knapsack Style - 1155C (https://codeforces.com/problemset/problem/1155/C)
+3. Longest Common Subsequence - 1451A (https://codeforces.com/problemset/problem/1451/A)
+4. Longest Increasing Subsequence - 466C (https://codeforces.com/problemset/problem/466/C)
+5. Edit Distance (DP on Strings) - 431C (https://codeforces.com/problemset/problem/431/C)
+6. Bitmask DP (Traveling Salesman Base) - 91A (https://codeforces.com/problemset/problem/91/A)
+7. DP + Prefix Sums - 106C (https://codeforces.com/problemset/problem/106/C)
+8. LIS Optimization - 474D (https://codeforces.com/problemset/problem/474/D)
+9. Subset DP - 1472D (https://codeforces.com/problemset/problem/1472/D)
+10. Digit DP Intro - 628D (https://codeforces.com/problemset/problem/628/D)
+
+How to use:
+- Start with classical problems like Knapsack and LCS.
+- Practice writing both recursive (top-down) and iterative (bottom-up) solutions.
+- Gradually move to Bitmask DP and DP on digits/subsets.
+- Study real problems where you apply 2D DP with constraints like "i, j, mask".
+
+
+
+Topics:
+- Graph Representation (Adjacency List, Matrix)
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+- Connected Components
+- Cycle Detection (undirected + directed)
+- Topological Sort
+- Shortest Path (Unweighted BFS, Dijkstra, Bellman-Ford)
+- Trees (DFS on Trees, Binary Tree Basics)
+
+Codeforces Graph Problems:
+1. Graph Representation + BFS - 510A (https://codeforces.com/problemset/problem/510/A)
+2. DFS Traversal - 339A (https://codeforces.com/problemset/problem/339/A)
+3. Connected Components (BFS/DFS) - 580C (https://codeforces.com/problemset/problem/580/C)
+4. Simple BFS Path - 208A (https://codeforces.com/problemset/problem/208/A)
+5. Cycle Detection (Undirected) - 550A (https://codeforces.com/problemset/problem/550/A)
+6. Cycle Detection (Directed) - 510B (https://codeforces.com/problemset/problem/510/B)
+7. Topological Sort - 510C (https://codeforces.com/problemset/problem/510/C)
+8. Shortest Path (Unweighted BFS) - 20C (https://codeforces.com/problemset/problem/20/C)
+9. Dijkstra’s Algorithm - 705A (https://codeforces.com/problemset/problem/705/A)
+10. Tree DFS Practice - 115A (https://codeforces.com/problemset/problem/115/A)
+
+How to use:
+- First learn how to represent graphs using adjacency lists in code.
+- Understand DFS and BFS deeply – use them for traversal, connected components, pathfinding.
+- Practice detecting cycles and doing topological sorting in DAGs.
+- Then move to shortest path algorithms: BFS for unweighted, Dijkstra for weighted.
+- Start learning about Trees (which are acyclic graphs) and their traversal using DFS.
+
+
+
+Topics:
+- Disjoint Set Union (Union-Find)
+- Path Compression + Union by Rank
+- Minimum Spanning Tree (Kruskal’s, Prim’s)
+- Bridges and Articulation Points
+- Strongly Connected Components (SCC - Kosaraju’s/Tarjan’s)
+- 2-SAT (based on SCC)
+- Topological Sort with Cycle Detection
+
+Codeforces Problems:
+1. DSU + Basic Union-Find - 115A (https://codeforces.com/problemset/problem/115/A)
+2. DSU Path Compression - 343D (https://codeforces.com/problemset/problem/343/D)
+3. DSU + Connected Components - 25A (https://codeforces.com/problemset/problem/25/A)
+4. MST (Kruskal’s Algorithm) - 609E (https://codeforces.com/problemset/problem/609/E)
+5. MST (Prim’s Algorithm) - 4C (https://codeforces.com/problemset/problem/4/C)
+6. Bridge Finding (DFS + Low Link) - 118E (https://codeforces.com/problemset/problem/118/E)
+7. Articulation Points - 25D (https://codeforces.com/problemset/problem/25/D)
+8. SCC (Kosaraju’s Algorithm) - 427C (https://codeforces.com/problemset/problem/427/C)
+9. Tarjan’s Algorithm for SCC - 1675G (https://codeforces.com/problemset/problem/1675/G)
+10. 2-SAT with SCC - 999E (https://codeforces.com/problemset/problem/999/E)
+
+How to use:
+- Master Union-Find (with optimizations) and apply it in component-finding problems.
+- Study MST algorithms (Kruskal and Prim) and solve problems with edge cost optimization.
+- Learn DFS-based algorithms to detect bridges and articulation points.
+- Study Kosaraju’s and Tarjan’s algorithms for SCC.
+- If possible, implement 2-SAT based on SCC understanding.
+
+
+
+
+Topics:
+- Prefix Sum Technique (1D & 2D)
+- Binary Indexed Tree (Fenwick Tree)
+- Segment Tree (Basic)
+- Segment Tree with Lazy Propagation (for range updates)
+- Range Minimum Query (RMQ)
+- Point Update vs Range Query
+- Range Update vs Range Query
+- Difference Array Technique
+
+Codeforces Problems:
+1. Prefix Sum Basic - 433B (https://codeforces.com/problemset/problem/433/B)
+2. Binary Indexed Tree (BIT) - 165E (https://codeforces.com/problemset/problem/165/E)
+3. Fenwick Tree + Queries - 1856C (https://codeforces.com/problemset/problem/1856/C)
+4. Segment Tree Construction - 339D (https://codeforces.com/problemset/problem/339/D)
+5. Segment Tree with Updates - 1042B (https://codeforces.com/problemset/problem/1042/B)
+6. Lazy Propagation Intro - 915E (https://codeforces.com/problemset/problem/915/E)
+7. RMQ Problem - 258B (https://codeforces.com/problemset/problem/258/B)
+8. Difference Array Technique - 796B (https://codeforces.com/problemset/problem/796/B)
+9. Range Add Query - 1857F (https://codeforces.com/problemset/problem/1857/F)
+10. 2D Prefix Sum Practice - 431B (https://codeforces.com/problemset/problem/431/B)
+
+How to use:
+- Start with Prefix Sum and Difference Array for range operations.
+- Learn Binary Indexed Tree (Fenwick Tree) and apply it on problems with point update & prefix sum.
+- Learn Segment Tree for range queries, and then lazy propagation for range updates.
+- Practice both RMQ and RSQ (Range Sum Query) types of problems.
+- These structures give you `O(log n)` query and update time!
+
+
+Topics:
+- Prefix Function (π array)
+- KMP (Knuth-Morris-Pratt) Algorithm
+- Z-Algorithm
+- Rabin-Karp String Hashing (Single & Double Hashing)
+- Trie Data Structure
+- Longest Common Prefix (LCP)
+- Suffix Array Basics (Construction + Sorting)
+- String Matching and Substring Search
+
+Codeforces Problems:
+1. Prefix Function Practice - 1304D (https://codeforces.com/problemset/problem/1304/D)
+2. KMP Basic Pattern Matching - 471A (https://codeforces.com/problemset/problem/471/A)
+3. Z-Algorithm Basic - 126B (https://codeforces.com/problemset/problem/126/B)
+4. Z-Function Implementation - 1326D2 (https://codeforces.com/problemset/problem/1326/D2)
+5. Hashing + Substrings - 271D (https://codeforces.com/problemset/problem/271/D)
+6. Hashing + Palindrome Check - 835C (https://codeforces.com/problemset/problem/835/C)
+7. Trie Insert and Search - 55C (https://codeforces.com/problemset/problem/55/C)
+8. Trie + Prefix Queries - 706D (https://codeforces.com/problemset/problem/706/D)
+9. LCP and Suffix Array Idea - 115C (https://codeforces.com/problemset/problem/115/C)
+10. Hard String Challenge (All-in-One) - 432D (https://codeforces.com/problemset/problem/432/D)
+
+How to use:
+- Learn the prefix function and KMP for efficient pattern matching.
+- Use Z-algorithm when prefix-based matches are needed.
+- Learn how hashing can help compare strings in constant time.
+- Implement Trie for prefix-related problems.
+- Study suffix arrays for advanced string sorting and substring problems.
+
+
+
+Topics:
+📐 Geometry:
+- 2D Point, Distance, Area
+- Orientation (Cross Product)
+- Convex Hull (Graham's scan)
+- Line Intersection
+- Circle-related Problems
+
+📊 Binary Search on Answer:
+- When the answer lies in the range [L, R]
+- Search the answer space, not array index
+
+🎮 Game Theory Basics:
+- Grundy Numbers
+- Nim Game
+- Sprague-Grundy Theorem
+- Winning & Losing States
+
+🧮 Combinatorics:
+- nCr, Factorials, Modular Inverse
+- Stars and Bars
+- Pigeonhole Principle
+- Inclusion-Exclusion
+
+Codeforces Problems:
+1. Basic Geometry Distance/Area - 334A (https://codeforces.com/problemset/problem/334/A)
+2. Cross Product + Orientation - 190A (https://codeforces.com/problemset/problem/190/A)
+3. Convex Hull Basics - 166B (https://codeforces.com/problemset/problem/166/B)
+4. Geometry + Vector Logic - 300C (https://codeforces.com/problemset/problem/300/C)
+5. Binary Search on Answer - 1201C (https://codeforces.com/problemset/problem/1201/C)
+6. Binary Search on Answer - 1334C (https://codeforces.com/problemset/problem/1334/C)
+7. Game Theory (Nim) - 1371D (https://codeforces.com/problemset/problem/1371/D)
+8. Sprague-Grundy - 190E (https://codeforces.com/problemset/problem/190/E)
+9. Combinatorics nCr + Mod - 479C (https://codeforces.com/problemset/problem/479/C)
+10. Inclusion-Exclusion + DP - 1511E (https://codeforces.com/problemset/problem/1511/E)
+
+How to use:
+- Learn geometry formulas, especially orientation, area, and point-in-polygon.
+- For "minimum/maximum value that satisfies condition", use Binary Search on Answer.
+- Understand basic combinatorics and how to precompute nCr with mod.
+- Game theory appears in specific contests – focus on Nim and Grundy basics.
+
+Bonus Resources:
+- Use visual tools like [cp-algorithms.com](https://cp-algorithms.com/) to learn geometry interactively.
+- Practice binary search on real value answers (double precision).
+- Game theory is less frequent but rewarding in niche problems.
+
+
+
+Topics:
+🧠 Mo's Algorithm (Query Square Root Decomposition)
+- Offline algorithm to answer range queries in O((N + Q)√N)
+- Ideal for static queries like “how many distinct numbers in a range?”
+
+🌲 Heavy Light Decomposition (HLD)
+- For path queries in trees
+- Used with segment trees to answer path-based queries efficiently
+
+🧩 Centroid Decomposition
+- Used in divide & conquer on trees
+- Efficient for solving path problems in trees
+
+🌀 Treaps / Splay Trees / Ordered Sets
+- Balanced BSTs with fast insert/delete/find
+- STL alternatives: `std::set`, `pbds` in C++
+
+🌊 Max Flow / Min Cut (Ford-Fulkerson, Dinic's)
+- Network flow problems
+- Matching, assignment, circulation problems
+
+Codeforces Problems:
+1. Mo’s Algorithm Basic - 86D (https://codeforces.com/problemset/problem/86/D)
+2. Mo’s Algo + Offline Queries - 617E (https://codeforces.com/problemset/problem/617/E)
+3. HLD + Segment Tree - 1328E (https://codeforces.com/problemset/problem/1328/E)
+4. HLD Tree Path Queries - 343D (https://codeforces.com/problemset/problem/343/D)
+5. Centroid Decomposition - 321E (https://codeforces.com/problemset/problem/321/E)
+6. Treap Insertion / Deletion - 840D (https://codeforces.com/problemset/problem/840/D)
+7. Ordered Set (PBDS) - 1208E (https://codeforces.com/problemset/problem/1208/E)
+8. Max Flow - 1076F (https://codeforces.com/problemset/problem/1076/F)
+9. Dinic's Algorithm - 1453E (https://codeforces.com/problemset/problem/1453/E)
+10. Min Cut + Flow Ideas - 459D (https://codeforces.com/problemset/problem/459/D)
+
+How to use:
+- Mo’s is great for frequency/count range queries (when updates are not needed).
+- Use HLD when you want to answer path or subtree queries in a tree quickly.
+- Centroid Decomposition is excellent for path-counting in trees.
+- Treaps and PBDS give you more control than `set` or `map` for ranked data.
+- Flow is a separate world – useful in scheduling, pairing, and optimization tasks.
+
+Advanced Resources:
+- cp-algorithms.com for detailed theory
+- Atcoder Library (ACL) for templates (HLD, Max Flow, etc.)
+- Visualizations for Mo’s and HLD (YouTube / VisuAlgo)
+
+
+
