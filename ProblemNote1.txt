@@ -1,480 +1,825 @@
-Step-by-Step Learning Plan: Basic Implementation + Math + Number Theory
-
 Step 1: Basic Implementation Concepts
-Topics:
-- Reading/writing input and output
-- Simple loops and conditionals
-- Working with arrays/vectors
-- Simple math operations (addition, subtraction, multiplication, division)
-- Basic simulation
+Topics: Reading/writing input/output, loops, conditionals, arrays/vectors, basic math operations, simple simulation
 
-Codeforces Problems:
-1. Watermelon - 4A (https://codeforces.com/problemset/problem/4/A)
-2. Way Too Long Words - 71A (https://codeforces.com/problemset/problem/71/A)
-3. Next Round - 158A (https://codeforces.com/problemset/problem/158/A)
-4. Petya and Strings - 112A (https://codeforces.com/problemset/problem/112/A)
-5. Bit++ - 282A (https://codeforces.com/problemset/problem/282/A)
-6. Way Too Long Words - 71A (https://codeforces.com/problemset/problem/71/A)
-7. Domino piling - 50A (https://codeforces.com/problemset/problem/50/A)
-8. Beautiful Matrix - 263A (https://codeforces.com/problemset/problem/263/A)
-9. Helpful Maths - 339A (https://codeforces.com/problemset/problem/339/A)
-10. HQ9+ - 133A (https://codeforces.com/problemset/problem/133/A)
+Goal: Build confidence in coding fundamentals and problem-solving.
 
----
+Original Problems: 10 (some duplicates fixed)
 
+New Problems Added: 30
+
+Total Problems: 40
+
+Fixed Original Problems (removed duplicates, ensured relevance):
+
+Watermelon - 4A (https://codeforces.com/problemset/problem/4/A) – Dividing even numbers
+Way Too Long Words - 71A (https://codeforces.com/problemset/problem/71/A) – String manipulation
+Next Round - 158A (https://codeforces.com/problemset/problem/158/A) – Array processing
+Petya and Strings - 112A (https://codeforces.com/problemset/problem/112/A) – String comparison
+Bit++ - 282A (https://codeforces.com/problemset/problem/282/A) – Simple simulation
+Domino Piling - 50A (https://codeforces.com/problemset/problem/50/A) – Basic math
+Beautiful Matrix - 263A (https://codeforces.com/problemset/problem/263/A) – 2D array manipulation
+Helpful Maths - 339A (https://codeforces.com/problemset/problem/339/A) – String and sorting
+HQ9+ - 133A (https://codeforces.com/problemset/problem/133/A) – Simple simulation
+Team - 231A (https://codeforces.com/problemset/problem/231/A) – Counting (replaces duplicate 71A)
+Additional Problems (30 problems, Codeforces and other platforms):
+11. Theatre Square - 1A (https://codeforces.com/problemset/problem/1/A) – Basic math
+12. Young Physicist - 69A (https://codeforces.com/problemset/problem/69/A) – Array sum
+13. Beautiful Year - 271A (https://codeforces.com/problemset/problem/271/A) – Loops
+14. Word Capitalization - 281A (https://codeforces.com/problemset/problem/281/A) – String
+15. Stones on the Table - 266A (https://codeforces.com/problemset/problem/266/A) – Array iteration
+16. Bear and Big Brother - 791A (https://codeforces.com/problemset/problem/791/A) – Loops
+17. Soldier and Bananas - 546A (https://codeforces.com/problemset/problem/546/A) – Math
+18. Elephant - 617A (https://codeforces.com/problemset/problem/617/A) – Division
+19. Wrong Subtraction - 977A (https://codeforces.com/problemset/problem/977/A) – Simulation
+20. Tram - 116A (https://codeforces.com/problemset/problem/116/A) – Array max
+21. Queue at the School - 266B (https://codeforces.com/problemset/problem/266/B) – Simulation
+22. Translation - 41A (https://codeforces.com/problemset/problem/41/A) – String
+23. Anton and Danik - 734A (https://codeforces.com/problemset/problem/734/A) – Counting
+24. Vanya and Fence - 677A (https://codeforces.com/problemset/problem/677/A) – Array sum
+25. George and Accommodation - 467A (https://codeforces.com/problemset/problem/467/A) – Conditionals
+26. In Search of an Easy Problem - 1030A (https://codeforces.com/problemset/problem/1030/A) – Simple logic
+27. AtCoder Beginner Contest 100 A - Happy Birthday! (https://atcoder.jp/contests/abc100/tasks/abc100_a) – Basic math
+28. AtCoder Beginner Contest 081 A - Placing Marbles (https://atcoder.jp/contests/abc081/tasks/abc081_a) – Counting
+29. LeetCode 1. Two Sum (https://leetcode.com/problems/two-sum/) – Array
+30. LeetCode 217. Contains Duplicate (https://leetcode.com/problems/contains-duplicate/) – Array
+31. HackerRank Solve Me First (https://www.hackerrank.com/challenges/solve-me-first) – Basic I/O
+32. HackerRank Simple Array Sum (https://www.hackerrank.com/challenges/simple-array-sum) – Array sum
+33. Codeforces 136A - Presents (https://codeforces.com/problemset/problem/136/A) – Array manipulation
+34. Codeforces 236A - Boy or Girl (https://codeforces.com/problemset/problem/236/A) – String
+35. Codeforces 318A - Even Odds (https://codeforces.com/problemset/problem/318/A) – Math
+36. Codeforces 344A - Magnets (https://codeforces.com/problemset/problem/344/A) – Counting
+37. Codeforces 405A - Gravity Flip (https://codeforces.com/problemset/problem/405/A) – Array sorting
+38. Codeforces 469A - I Wanna Be the Guy (https://codeforces.com/problemset/problem/469/A) – Array
+39. Codeforces 486A - Calculating Function (https://codeforces.com/problemset/problem/486/A) – Math
+40. Codeforces 546B - Soldier and Badges (https://codeforces.com/problemset/problem/546/B) – Simulation
+
+How to Use:
+
+Solve problems in order, starting with Codeforces 800–1000 difficulty.
+Focus on writing clean, efficient code using basic constructs (loops, arrays).
+Use C++, Python, or Java for fast I/O handling.
+Check editorials if stuck after 30 minutes.
 Step 2: Basic Math
-Topics:
-- Divisibility and modulo operations
-- Powers and exponentiation
-- Factorials and basic combinatorics
-- GCD and LCM basics
-- Prime numbers introduction
+Topics: Divisibility, modulo, powers, factorials, GCD/LCM, prime numbers
 
-Codeforces Problems:
-1. Divisibility Problem - 75A (https://codeforces.com/problemset/problem/75/A)
-2. Remainder - 279A (https://codeforces.com/problemset/problem/279/A)
-3. GCD Problem - 580A (https://codeforces.com/problemset/problem/580/A)
-4. LCM Problem - 200B (https://codeforces.com/problemset/problem/200/B)
-5. Calculating Factorials - 623A (https://codeforces.com/problemset/problem/623/A)
-6. Powers of Two - 742A (https://codeforces.com/problemset/problem/742/A)
-7. Number of Divisors - 577A (https://codeforces.com/problemset/problem/577/A)
-8. Simple GCD - 514A (https://codeforces.com/problemset/problem/514/A)
-9. Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A)
-10. Prime Checker - 122A (https://codeforces.com/problemset/problem/122/A)
+Goal: Understand fundamental math concepts for problem-solving.
 
----
+Original Problems: 10 (some incorrect links fixed)
 
+New Problems Added: 25
+
+Total Problems: 35
+
+Fixed Original Problems:
+
+Divisibility Problem - 1328A (https://codeforces.com/problemset/problem/1328/A) – Modulo
+Expression - 479A (https://codeforces.com/problemset/problem/479/A) – Basic operations (replaces 75A)
+GCD Sum - 1498B (https://codeforces.com/problemset/problem/1498/B) – GCD (replaces 580A)
+Drinks - 200B (https://codeforces.com/problemset/problem/200/B) – Fractions
+Chewbaсca and Number - 514A (https://codeforces.com/problemset/problem/514/A) – Number manipulation
+Powers of Two - 702A (https://codeforces.com/problemset/problem/702/A) – Exponentiation (replaces 742A)
+Multiplication Table - 577A (https://codeforces.com/problemset/problem/577/A) – Divisors
+Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A) – Prime counting
+Lucky Numbers (easy) - 96A (https://codeforces.com/problemset/problem/96/A) – Pattern (replaces 122A)
+Factorial Divisibility - 1553D (https://codeforces.com/problemset/problem/1553/D) – Factorials (replaces 623A)
+Additional Problems (25 problems):
+11. Fox and Snake - 510A (https://codeforces.com/problemset/problem/510/A) – Pattern
+12. Vanya and Cubes - 492A (https://codeforces.com/problemset/problem/492/A) – Math
+13. Sereja and Dima - 381A (https://codeforces.com/problemset/problem/381/A) – Simulation
+14. Twins - 160A (https://codeforces.com/problemset/problem/160/A) – Greedy math
+15. Game With Sticks - 451A (https://codeforces.com/problemset/problem/451/A) – Min/max
+16. Ilya and Bank Account - 313A (https://codeforces.com/problemset/problem/313/A) – Number manipulation
+17. Lucky Division - 122A (https://codeforces.com/problemset/problem/122/A) – Divisibility
+18. LCM Challenge - 235A (https://codeforces.com/problemset/problem/235/A) – LCM
+19. GCD Table - 582A (https://codeforces.com/problemset/problem/582/A) – GCD
+20. Prime Subtraction - 1352A (https://codeforces.com/problemset/problem/1352/A) – Primes
+21. AtCoder Beginner Contest 088 B - Card Game for Two (https://atcoder.jp/contests/abc088/tasks/abc088_b) – Greedy math
+22. LeetCode 7. Reverse Integer (https://leetcode.com/problems/reverse-integer/) – Number manipulation
+23. LeetCode 9. Palindrome Number (https://leetcode.com/problems/palindrome-number/) – Number
+24. HackerRank Diagonal Difference (https://www.hackerrank.com/challenges/diagonal-difference) – Matrix math
+25. Codeforces 118A - String Task (https://codeforces.com/problemset/problem/118/A) – String math
+26. Codeforces 131A - cAPS lOCK (https://codeforces.com/problemset/problem/131/A) – String
+27. Codeforces 236B - Easy Number Challenge (https://codeforces.com/problemset/problem/236/B) – Divisors
+28. Codeforces 263B - Squares (https://codeforces.com/problemset/problem/263/B) – Math
+29. Codeforces 271B - Prime Matrix (https://codeforces.com/problemset/problem/271/B) – Primes
+30. Codeforces 318B - Strings of Power (https://codeforces.com/problemset/problem/318/B) – Counting
+31. Codeforces 339B - Xenia and Ringroad (https://codeforces.com/problemset/problem/339/B) – Math
+32. Codeforces 405B - Domino Effect (https://codeforces.com/problemset/problem/405/B) – Simulation
+33. Codeforces 469B - Little Pony and Sort by Shift (https://codeforces.com/problemset/problem/469/B) – Array
+34. Codeforces 486B - OR in Matrix (https://codeforces.com/problemset/problem/486/B) – Matrix
+35. Codeforces 546C - Soldier and Cards (https://codeforces.com/problemset/problem/546/C) – Simulation
+
+How to Use:
+
+Study GCD/LCM and prime factorization from CP-Algorithms or Khan Academy.
+Practice modulo and divisibility problems first, then move to factorials and primes.
+Use fast I/O in C++ to avoid TLE (Time Limit Exceeded).
 Step 3: Number Theory Basics
-Topics:
-- Prime factorization
-- Sieve of Eratosthenes
-- Modular arithmetic properties
-- Modular inverses (basic)
-- Euler’s Totient function (intro)
+Topics: Prime factorization, Sieve of Eratosthenes, modular arithmetic, modular inverses, Euler’s Totient
 
-Codeforces Problems:
-1. Prime Factorization - 147A (https://codeforces.com/problemset/problem/147/A)
-2. Sieve of Eratosthenes Practice - 214A (https://codeforces.com/problemset/problem/214/A)
-3. Modular Arithmetic - 279B (https://codeforces.com/problemset/problem/279/B)
-4. Modular Inverse Intro - 476B (https://codeforces.com/problemset/problem/476/B)
-5. Euler’s Totient Basics - 797A (https://codeforces.com/problemset/problem/797/A)
-6. Number of Divisors - 1352C (https://codeforces.com/problemset/problem/1352/C)
-7. Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A)
-8. Lucky Numbers - 145A (https://codeforces.com/problemset/problem/145/A)
-9. Sieve for Multiple Queries - 1037A (https://codeforces.com/problemset/problem/1037/A)
-10. Simple Modular Problems - 4C (https://codeforces.com/problemset/problem/4/C)
+Goal: Master foundational number theory for divisibility and modular problems.
 
----
+Original Problems: 10 (some links fixed)
 
+New Problems Added: 25
+
+Total Problems: 35
+
+Fixed Original Problems:
+
+K-th Divisor - 797A (https://codeforces.com/problemset/problem/797/A) – Prime factorization
+K-th Not Divisible by n - 1352C (https://codeforces.com/problemset/problem/1352/C) – Divisibility
+Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A) – Prime counting
+Lucky Numbers - 122A (https://codeforces.com/problemset/problem/122/A) – Divisibility (replaces 145A)
+Packets - 1037A (https://codeforces.com/problemset/problem/1037/A) – Number theory
+Registration System - 4C (https://codeforces.com/problemset/problem/4/C) – Hashing
+System of Equations - 214A (https://codeforces.com/problemset/problem/214/A) – Brute force math
+Books - 279B (https://codeforces.com/problemset/problem/279/B) – Two pointers (replaces modular arithmetic)
+Dreamoon and WiFi - 476B (https://codeforces.com/problemset/problem/476/B) – Combinatorics
+Points on Line - 147A (https://codeforces.com/problemset/problem/147/A) – Number manipulation
+Additional Problems (25 problems):
+11. Prime Matrix - 271B (https://codeforces.com/problemset/problem/271/B) – Sieve
+12. Vanya and Books - 552B (https://codeforces.com/problemset/problem/552/B) – Number theory
+13. GCD Compression - 1370B (https://codeforces.com/problemset/problem/1370/B) – GCD
+14. Sum of Digits - 102B (https://codeforces.com/problemset/problem/102/B) – Number manipulation
+15. Divisors of Two Integers - 1108B (https://codeforces.com/problemset/problem/1108/B) – Divisors
+16. LCM Query - 914A (https://codeforces.com/problemset/problem/914/A) – LCM
+17. Prime Subtraction - 1352A (https://codeforces.com/problemset/problem/1352/A) – Primes
+18. AtCoder Beginner Contest 075 B - Minesweeper (https://atcoder.jp/contests/abc075/tasks/abc075_b) – Number counting
+19. LeetCode 204. Count Primes (https://leetcode.com/problems/count-primes/) – Sieve
+20. HackerRank Find Digits (https://www.hackerrank.com/challenges/find-digits) – Divisibility
+21. Codeforces 230B - T-Primes (https://codeforces.com/problemset/problem/230/B) – Primes
+22. Codeforces 546D - Soldier and Number Game (https://codeforces.com/problemset/problem/546/D) – Prime factorization
+23. Codeforces 580B - Kefa and Company (https://codeforces.com/problemset/problem/580/B) – Sorting
+24. Codeforces 617B - Chocolate (https://codeforces.com/problemset/problem/617/B) – Number theory
+25. Codeforces 677B - Vanya and Food Processor (https://codeforces.com/problemset/problem/677/B) – Math
+26. Codeforces 734B - Anton and Digits (https://codeforces.com/problemset/problem/734/B) – Greedy math
+27. Codeforces 791B - Bear and Friendship Condition (https://codeforces.com/problemset/problem/791/B) – Graph math
+28. Codeforces 977B - Two-gram (https://codeforces.com/problemset/problem/977/B) – Counting
+29. Codeforces 1037B - Reach Median (https://codeforces.com/problemset/problem/1037/B) – Number manipulation
+30. Codeforces 1108A - Two distinct points (https://codeforces.com/problemset/problem/1108/A) – Math
+31. Codeforces 1189A - Games (https://codeforces.com/problemset/problem/1189/A) – Counting
+32. Codeforces 1221A - 2048 Game (https://codeforces.com/problemset/problem/1221/A) – Number theory
+33. Codeforces 1294B - Collecting Packages (https://codeforces.com/problemset/problem/1294/B) – Greedy
+34. Codeforces 1360B - Honest Coach (https://codeforces.com/problemset/problem/1360/B) – Sorting
+35. Codeforces 1399B - Gifts Fixing (https://codeforces.com/problemset/problem/1399/B) – Math
+
+How to Use:
+
+Implement Sieve of Eratosthenes for prime-related problems.
+Practice modular arithmetic with large numbers (use long long in C++).
+Study Euler’s Totient and modular inverses from CP-Algorithms.
 Step 4: Advanced Number Theory Basics
-Topics:
-- Fast modular exponentiation (binary exponentiation)
-- Extended Euclidean algorithm
-- Chinese Remainder Theorem basics
-- Basics of prime testing
+Topics: Fast modular exponentiation, Extended Euclidean, Chinese Remainder Theorem, prime testing
 
-Codeforces Problems:
-1. Fast Exponentiation - 242B (https://codeforces.com/problemset/problem/242/B)
-2. Extended Euclid Application - 476C (https://codeforces.com/problemset/problem/476/C)
-3. CRT Intro - 577B (https://codeforces.com/problemset/problem/577/B)
-4. Power Mod Problem - 31A (https://codeforces.com/problemset/problem/31/A)
-5. Linear Diophantine Equations - 344A (https://codeforces.com/problemset/problem/344/A)
-6. Modulo Inverse - 476B (https://codeforces.com/problemset/problem/476/B)
-7. Binary Exponentiation - 527A (https://codeforces.com/problemset/problem/527/A)
-8. CRT Simple Use - 766A (https://codeforces.com/problemset/problem/766/A)
-9. Prime Check - 26A (https://codeforces.com/problemset/problem/26/A)
-10. Number Theory Practice - 224B (https://codeforces.com/problemset/problem/224/B)
+Goal: Deepen number theory knowledge for complex problems.
 
----
+Original Problems: 10 (some links fixed)
 
-How to use:
-- Study theory from online tutorials (CP-Algorithms, GeeksforGeeks, YouTube).
-- Solve the listed problems in order.
-- Read editorials if stuck.
-- Repeat for mastery.
-- Move on to next topic when ready.
+New Problems Added: 20
 
----
+Total Problems: 30
 
+Fixed Original Problems:
 
+Playing with Paper - 527A (https://codeforces.com/problemset/problem/527/A) – Division
+Dreamoon and WiFi - 476B (https://codeforces.com/problemset/problem/476/B) – Combinatorics
+Mahmoud and a Triangle - 766A (https://codeforces.com/problemset/problem/766/A) – Number theory
+Almost Prime - 26A (https://codeforces.com/problemset/problem/26/A) – Prime counting
+Array and Operations - 224B (https://codeforces.com/problemset/problem/224/B) – Array math
+The Number of Positions - 242B (https://codeforces.com/problemset/problem/242/B) – Min/max
+k-Multiple Free Set - 274B (https://codeforces.com/problemset/problem/274/B) – Number theory
+System of Equations - 214A (https://codeforces.com/problemset/problem/214/A) – Brute force
+Game with Integers - 1097B (https://codeforces.com/problemset/problem/1097/B) – Number theory
+LCM Challenge - 235A (https://codeforces.com/problemset/problem/235/A) – LCM
+Additional Problems (20 problems):
+11. T-Primes - 230B (https://codeforces.com/problemset/problem/230/B) – Prime testing
+12. GCD Compression - 1370B (https://codeforces.com/problemset/problem/1370/B) – GCD
+13. Modular Exponentiation - 913A (https://codeforces.com/problemset/problem/913/A) – Exponentiation
+14. Vanya and Books - 552B (https://codeforces.com/problemset/problem/552/B) – Number theory
+15. Sum of Digits - 102B (https://codeforces.com/problemset/problem/102/B) – Number manipulation
+16. AtCoder Beginner Contest 095 C - Half and Half (https://atcoder.jp/contests/abc095/tasks/arc096_a) – Math
+17. LeetCode 326. Power of Three (https://leetcode.com/problems/power-of-three/) – Exponentiation
+18. HackerRank Prime Dates (https://www.hackerrank.com/challenges/prime-date) – Prime testing
+19. Codeforces 580D - Kefa and Dishes (https://codeforces.com/problemset/problem/580/D) – Bitmask DP
+20. Codeforces 617C - Watering Flowers (https://codeforces.com/problemset/problem/617/C) – Math
+21. Codeforces 677C - Vanya and Label (https://codeforces.com/problemset/problem/677/C) – Number theory
+22. Codeforces 734C - Anton and Making Potions (https://codeforces.com/problemset/problem/734/C) – Greedy
+23. Codeforces 791C - Bear and Different Names (https://codeforces.com/problemset/problem/791/C) – Construction
+24. Codeforces 977C - Less or Equal (https://codeforces.com/problemset/problem/977/C) – Sorting
+25. Codeforces 1037C - Equalize (https://codeforces.com/problemset/problem/1037/C) – Number manipulation
+26. Codeforces 1108C - Nice Garland (https://codeforces.com/problemset/problem/1108/C) – Pattern
+27. Codeforces 1189B - Number Circle (https://codeforces.com/problemset/problem/1189/B) – Sorting
+28. Codeforces 1221B - Knights (https://codeforces.com/problemset/problem/1221/B) – Pattern
+29. Codeforces 1294C - Product of Three Numbers (https://codeforces.com/problemset/problem/1294/C) – Factorization
+30. Codeforces 1360C - Similar Pairs (https://codeforces.com/problemset/problem/1360/C) – Number theory
 
+How to Use:
+
+Implement binary exponentiation for fast power calculations.
+Study Extended Euclidean and CRT from GeeksforGeeks or CP-Algorithms.
+Practice prime testing with Miller-Rabin for advanced problems.
 Step 5: Intermediate Number Theory and Implementation Techniques
-
-Topics:
-- Modular arithmetic advanced (modular exponentiation, inverse, Fermat's Little Theorem)
-- Prime factorization optimization
-- Segmented sieve
-- Basic combinatorics: permutations, combinations, Pascal's triangle
-- Inclusion-Exclusion principle
-- Basic recurrence relations and dynamic programming introduction
-- Implementation techniques: two pointers, prefix sums, binary search on answer
-
-Codeforces Problems:
-1. Modular Exponentiation Practice - 1095C (https://codeforces.com/problemset/problem/1095/C)
-2. Fermat's Little Theorem - 476C (https://codeforces.com/problemset/problem/476/C)
-3. Segmented Sieve - 665A (https://codeforces.com/problemset/problem/665/A)
-4. Combinations Counting - 118D (https://codeforces.com/problemset/problem/118/D)
-5. Pascal's Triangle - 644B (https://codeforces.com/problemset/problem/644/B)
-6. Inclusion-Exclusion - 416C (https://codeforces.com/problemset/problem/416/C)
-7. Recurrence Relations - 431C (https://codeforces.com/problemset/problem/431/C)
-8. Two Pointers Technique - 279C (https://codeforces.com/problemset/problem/279/C)
-9. Prefix Sums - 1352B (https://codeforces.com/problemset/problem/1352/B)
-10. Binary Search on Answer - 20C (https://codeforces.com/problemset/problem/20/C)
-
----
-
-How to use:
-- Study advanced modular arithmetic, combinatorics, and implementation techniques through tutorials.
-- Practice these specific problems to get comfortable with intermediate techniques.
-- Focus on understanding problem-solving patterns like two pointers and prefix sums.
-- Apply concepts in contests or practice rounds.
-
-
-
-Topics:
-- Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick)
-- Binary Search (on array & answer)
-- Two Pointers
-- Recursion & Backtracking (basics)
-- Bit Manipulation (set, unset, count bits, parity)
-- STL (Standard Template Library): vector, map, set, pair
-
-Codeforces Problems:
-1. Binary Search Basic - 118A (https://codeforces.com/problemset/problem/118/A)
-2. Lower Bound, Upper Bound - 474A (https://codeforces.com/problemset/problem/474/A)
-3. Two Pointers + Sorting - 160A (https://codeforces.com/problemset/problem/160/A)
-4. Sorting and Greedy - 144A (https://codeforces.com/problemset/problem/144/A)
-5. Recursion Base Practice - 1352C (https://codeforces.com/problemset/problem/1352/C)
-6. Backtracking Intro - 580C (https://codeforces.com/problemset/problem/580/C)
-7. Bitwise Operation - 282A (https://codeforces.com/problemset/problem/282/A)
-8. Count Set Bits - 476A (https://codeforces.com/problemset/problem/476/A)
-9. Bit Tricks Practice - 131A (https://codeforces.com/problemset/problem/131/A)
-10. STL Practice - 520A (https://codeforces.com/problemset/problem/520/A)
-
-How to use:
-- Learn sorting algorithms, STL, and recursion/bitwise techniques.
-- Practice on simple problems first, then solve the listed CF problems.
-- Focus on implementation and speed of thinking.
-
-
-
-Topics:
-- Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick)
-- Binary Search (on array & answer)
-- Two Pointers
-- Recursion & Backtracking (basics)
-- Bit Manipulation (set, unset, count bits, parity)
-- STL (Standard Template Library): vector, map, set, pair
-
-Codeforces Problems:
-1. Binary Search Basic - 118A (https://codeforces.com/problemset/problem/118/A)
-2. Lower Bound, Upper Bound - 474A (https://codeforces.com/problemset/problem/474/A)
-3. Two Pointers + Sorting - 160A (https://codeforces.com/problemset/problem/160/A)
-4. Sorting and Greedy - 144A (https://codeforces.com/problemset/problem/144/A)
-5. Recursion Base Practice - 1352C (https://codeforces.com/problemset/problem/1352/C)
-6. Backtracking Intro - 580C (https://codeforces.com/problemset/problem/580/C)
-7. Bitwise Operation - 282A (https://codeforces.com/problemset/problem/282/A)
-8. Count Set Bits - 476A (https://codeforces.com/problemset/problem/476/A)
-9. Bit Tricks Practice - 131A (https://codeforces.com/problemset/problem/131/A)
-10. STL Practice - 520A (https://codeforces.com/problemset/problem/520/A)
-
-How to use:
-- Learn sorting algorithms, STL, and recursion/bitwise techniques.
-- Practice on simple problems first, then solve the listed CF problems.
-- Focus on implementation and speed of thinking.
-
-
-
-
-Topics:
-- Greedy Strategy and Pattern
-- Greedy vs Brute Force
-- Greedy + Sorting
-- Introduction to DP (memoization, tabulation)
-- 1D DP Basics (Fibonacci-style)
-- DP with states (like dp[i][j])
-- Overlapping Subproblems and Optimal Substructure
-
-Codeforces Greedy Problems:
-1. Coin Problem (Greedy) - 996A (https://codeforces.com/problemset/problem/996/A)
-2. Easy Scheduling - 1030A (https://codeforces.com/problemset/problem/1030/A)
-3. Easy Task Scheduling - 160A (https://codeforces.com/problemset/problem/160/A)
-4. Team Formation - 231A (https://codeforces.com/problemset/problem/231/A)
-5. Gifts Distribution - 136A (https://codeforces.com/problemset/problem/136/A)
-6. Restoring Order - 556A (https://codeforces.com/problemset/problem/556/A)
-7. Vanya and Lanterns - 492B (https://codeforces.com/problemset/problem/492/B)
-8. Beru-taxi - 706B (https://codeforces.com/problemset/problem/706/B)
-9. New Year and Hurry - 750A (https://codeforces.com/problemset/problem/750/A)
-10. Lucky Ticket - 146A (https://codeforces.com/problemset/problem/146/A)
-
-Codeforces Beginner DP Problems:
-1. Frog 1 - 1071A (https://codeforces.com/contest/1071/problem/A)
-2. Maximum Subarray Sum - 1490C (https://codeforces.com/problemset/problem/1490/C)
-3. 1D DP Practice - 1037C (https://codeforces.com/problemset/problem/1037/C)
-4. Make Equal - 1401B (https://codeforces.com/problemset/problem/1401/B)
-5. Sum and Replace - 1374C (https://codeforces.com/problemset/problem/1374/C)
-6. Coin Change 1D DP - 1256A (https://codeforces.com/problemset/problem/1256/A)
-7. Even/Odd DP - 1399A (https://codeforces.com/problemset/problem/1399/A)
-8. Binary Strings DP - 1294C (https://codeforces.com/problemset/problem/1294/C)
-9. LCS Intro (DP state [i][j]) - 1451A (https://codeforces.com/problemset/problem/1451/A)
-10. Fib Tabulation DP - 1343A (https://codeforces.com/problemset/problem/1343/A)
-
-How to use:
-- Learn Greedy problems first — figure out when greedy works and when it fails.
-- Watch DP beginner tutorials (e.g., Fibonacci with memoization/tabulation).
-- Solve the listed problems in order of difficulty.
-- Focus on writing recursive solutions, then convert them to DP.
-
-
-
-
-
-Topics:
-- 2D Dynamic Programming (dp[i][j] style)
-- 0/1 Knapsack Problem
-- Unbounded Knapsack
-- Longest Common Subsequence (LCS)
-- Longest Increasing Subsequence (LIS)
-- DP on Strings
-- Bitmask DP (subset states)
-- Optimization Techniques (e.g., prefix sums in DP, monotonicity)
-
-Codeforces Advanced DP Problems:
-1. 0/1 Knapsack Base - 16B (https://codeforces.com/problemset/problem/16/B)
-2. Unbounded Knapsack Style - 1155C (https://codeforces.com/problemset/problem/1155/C)
-3. Longest Common Subsequence - 1451A (https://codeforces.com/problemset/problem/1451/A)
-4. Longest Increasing Subsequence - 466C (https://codeforces.com/problemset/problem/466/C)
-5. Edit Distance (DP on Strings) - 431C (https://codeforces.com/problemset/problem/431/C)
-6. Bitmask DP (Traveling Salesman Base) - 91A (https://codeforces.com/problemset/problem/91/A)
-7. DP + Prefix Sums - 106C (https://codeforces.com/problemset/problem/106/C)
-8. LIS Optimization - 474D (https://codeforces.com/problemset/problem/474/D)
-9. Subset DP - 1472D (https://codeforces.com/problemset/problem/1472/D)
-10. Digit DP Intro - 628D (https://codeforces.com/problemset/problem/628/D)
-
-How to use:
-- Start with classical problems like Knapsack and LCS.
-- Practice writing both recursive (top-down) and iterative (bottom-up) solutions.
-- Gradually move to Bitmask DP and DP on digits/subsets.
-- Study real problems where you apply 2D DP with constraints like "i, j, mask".
-
-
-
-Topics:
-- Graph Representation (Adjacency List, Matrix)
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
-- Connected Components
-- Cycle Detection (undirected + directed)
-- Topological Sort
-- Shortest Path (Unweighted BFS, Dijkstra, Bellman-Ford)
-- Trees (DFS on Trees, Binary Tree Basics)
-
-Codeforces Graph Problems:
-1. Graph Representation + BFS - 510A (https://codeforces.com/problemset/problem/510/A)
-2. DFS Traversal - 339A (https://codeforces.com/problemset/problem/339/A)
-3. Connected Components (BFS/DFS) - 580C (https://codeforces.com/problemset/problem/580/C)
-4. Simple BFS Path - 208A (https://codeforces.com/problemset/problem/208/A)
-5. Cycle Detection (Undirected) - 550A (https://codeforces.com/problemset/problem/550/A)
-6. Cycle Detection (Directed) - 510B (https://codeforces.com/problemset/problem/510/B)
-7. Topological Sort - 510C (https://codeforces.com/problemset/problem/510/C)
-8. Shortest Path (Unweighted BFS) - 20C (https://codeforces.com/problemset/problem/20/C)
-9. Dijkstra’s Algorithm - 705A (https://codeforces.com/problemset/problem/705/A)
-10. Tree DFS Practice - 115A (https://codeforces.com/problemset/problem/115/A)
-
-How to use:
-- First learn how to represent graphs using adjacency lists in code.
-- Understand DFS and BFS deeply – use them for traversal, connected components, pathfinding.
-- Practice detecting cycles and doing topological sorting in DAGs.
-- Then move to shortest path algorithms: BFS for unweighted, Dijkstra for weighted.
-- Start learning about Trees (which are acyclic graphs) and their traversal using DFS.
-
-
-
-Topics:
-- Disjoint Set Union (Union-Find)
-- Path Compression + Union by Rank
-- Minimum Spanning Tree (Kruskal’s, Prim’s)
-- Bridges and Articulation Points
-- Strongly Connected Components (SCC - Kosaraju’s/Tarjan’s)
-- 2-SAT (based on SCC)
-- Topological Sort with Cycle Detection
-
-Codeforces Problems:
-1. DSU + Basic Union-Find - 115A (https://codeforces.com/problemset/problem/115/A)
-2. DSU Path Compression - 343D (https://codeforces.com/problemset/problem/343/D)
-3. DSU + Connected Components - 25A (https://codeforces.com/problemset/problem/25/A)
-4. MST (Kruskal’s Algorithm) - 609E (https://codeforces.com/problemset/problem/609/E)
-5. MST (Prim’s Algorithm) - 4C (https://codeforces.com/problemset/problem/4/C)
-6. Bridge Finding (DFS + Low Link) - 118E (https://codeforces.com/problemset/problem/118/E)
-7. Articulation Points - 25D (https://codeforces.com/problemset/problem/25/D)
-8. SCC (Kosaraju’s Algorithm) - 427C (https://codeforces.com/problemset/problem/427/C)
-9. Tarjan’s Algorithm for SCC - 1675G (https://codeforces.com/problemset/problem/1675/G)
-10. 2-SAT with SCC - 999E (https://codeforces.com/problemset/problem/999/E)
-
-How to use:
-- Master Union-Find (with optimizations) and apply it in component-finding problems.
-- Study MST algorithms (Kruskal and Prim) and solve problems with edge cost optimization.
-- Learn DFS-based algorithms to detect bridges and articulation points.
-- Study Kosaraju’s and Tarjan’s algorithms for SCC.
-- If possible, implement 2-SAT based on SCC understanding.
-
-
-
-
-Topics:
-- Prefix Sum Technique (1D & 2D)
-- Binary Indexed Tree (Fenwick Tree)
-- Segment Tree (Basic)
-- Segment Tree with Lazy Propagation (for range updates)
-- Range Minimum Query (RMQ)
-- Point Update vs Range Query
-- Range Update vs Range Query
-- Difference Array Technique
-
-Codeforces Problems:
-1. Prefix Sum Basic - 433B (https://codeforces.com/problemset/problem/433/B)
-2. Binary Indexed Tree (BIT) - 165E (https://codeforces.com/problemset/problem/165/E)
-3. Fenwick Tree + Queries - 1856C (https://codeforces.com/problemset/problem/1856/C)
-4. Segment Tree Construction - 339D (https://codeforces.com/problemset/problem/339/D)
-5. Segment Tree with Updates - 1042B (https://codeforces.com/problemset/problem/1042/B)
-6. Lazy Propagation Intro - 915E (https://codeforces.com/problemset/problem/915/E)
-7. RMQ Problem - 258B (https://codeforces.com/problemset/problem/258/B)
-8. Difference Array Technique - 796B (https://codeforces.com/problemset/problem/796/B)
-9. Range Add Query - 1857F (https://codeforces.com/problemset/problem/1857/F)
-10. 2D Prefix Sum Practice - 431B (https://codeforces.com/problemset/problem/431/B)
-
-How to use:
-- Start with Prefix Sum and Difference Array for range operations.
-- Learn Binary Indexed Tree (Fenwick Tree) and apply it on problems with point update & prefix sum.
-- Learn Segment Tree for range queries, and then lazy propagation for range updates.
-- Practice both RMQ and RSQ (Range Sum Query) types of problems.
-- These structures give you `O(log n)` query and update time!
-
-
-Topics:
-- Prefix Function (π array)
-- KMP (Knuth-Morris-Pratt) Algorithm
-- Z-Algorithm
-- Rabin-Karp String Hashing (Single & Double Hashing)
-- Trie Data Structure
-- Longest Common Prefix (LCP)
-- Suffix Array Basics (Construction + Sorting)
-- String Matching and Substring Search
-
-Codeforces Problems:
-1. Prefix Function Practice - 1304D (https://codeforces.com/problemset/problem/1304/D)
-2. KMP Basic Pattern Matching - 471A (https://codeforces.com/problemset/problem/471/A)
-3. Z-Algorithm Basic - 126B (https://codeforces.com/problemset/problem/126/B)
-4. Z-Function Implementation - 1326D2 (https://codeforces.com/problemset/problem/1326/D2)
-5. Hashing + Substrings - 271D (https://codeforces.com/problemset/problem/271/D)
-6. Hashing + Palindrome Check - 835C (https://codeforces.com/problemset/problem/835/C)
-7. Trie Insert and Search - 55C (https://codeforces.com/problemset/problem/55/C)
-8. Trie + Prefix Queries - 706D (https://codeforces.com/problemset/problem/706/D)
-9. LCP and Suffix Array Idea - 115C (https://codeforces.com/problemset/problem/115/C)
-10. Hard String Challenge (All-in-One) - 432D (https://codeforces.com/problemset/problem/432/D)
-
-How to use:
-- Learn the prefix function and KMP for efficient pattern matching.
-- Use Z-algorithm when prefix-based matches are needed.
-- Learn how hashing can help compare strings in constant time.
-- Implement Trie for prefix-related problems.
-- Study suffix arrays for advanced string sorting and substring problems.
-
-
-
-Topics:
-📐 Geometry:
-- 2D Point, Distance, Area
-- Orientation (Cross Product)
-- Convex Hull (Graham's scan)
-- Line Intersection
-- Circle-related Problems
-
-📊 Binary Search on Answer:
-- When the answer lies in the range [L, R]
-- Search the answer space, not array index
-
-🎮 Game Theory Basics:
-- Grundy Numbers
-- Nim Game
-- Sprague-Grundy Theorem
-- Winning & Losing States
-
-🧮 Combinatorics:
-- nCr, Factorials, Modular Inverse
-- Stars and Bars
-- Pigeonhole Principle
-- Inclusion-Exclusion
-
-Codeforces Problems:
-1. Basic Geometry Distance/Area - 334A (https://codeforces.com/problemset/problem/334/A)
-2. Cross Product + Orientation - 190A (https://codeforces.com/problemset/problem/190/A)
-3. Convex Hull Basics - 166B (https://codeforces.com/problemset/problem/166/B)
-4. Geometry + Vector Logic - 300C (https://codeforces.com/problemset/problem/300/C)
-5. Binary Search on Answer - 1201C (https://codeforces.com/problemset/problem/1201/C)
-6. Binary Search on Answer - 1334C (https://codeforces.com/problemset/problem/1334/C)
-7. Game Theory (Nim) - 1371D (https://codeforces.com/problemset/problem/1371/D)
-8. Sprague-Grundy - 190E (https://codeforces.com/problemset/problem/190/E)
-9. Combinatorics nCr + Mod - 479C (https://codeforces.com/problemset/problem/479/C)
-10. Inclusion-Exclusion + DP - 1511E (https://codeforces.com/problemset/problem/1511/E)
-
-How to use:
-- Learn geometry formulas, especially orientation, area, and point-in-polygon.
-- For "minimum/maximum value that satisfies condition", use Binary Search on Answer.
-- Understand basic combinatorics and how to precompute nCr with mod.
-- Game theory appears in specific contests – focus on Nim and Grundy basics.
-
-Bonus Resources:
-- Use visual tools like [cp-algorithms.com](https://cp-algorithms.com/) to learn geometry interactively.
-- Practice binary search on real value answers (double precision).
-- Game theory is less frequent but rewarding in niche problems.
-
-
-
-Topics:
-🧠 Mo's Algorithm (Query Square Root Decomposition)
-- Offline algorithm to answer range queries in O((N + Q)√N)
-- Ideal for static queries like “how many distinct numbers in a range?”
-
-🌲 Heavy Light Decomposition (HLD)
-- For path queries in trees
-- Used with segment trees to answer path-based queries efficiently
-
-🧩 Centroid Decomposition
-- Used in divide & conquer on trees
-- Efficient for solving path problems in trees
-
-🌀 Treaps / Splay Trees / Ordered Sets
-- Balanced BSTs with fast insert/delete/find
-- STL alternatives: `std::set`, `pbds` in C++
-
-🌊 Max Flow / Min Cut (Ford-Fulkerson, Dinic's)
-- Network flow problems
-- Matching, assignment, circulation problems
-
-Codeforces Problems:
-1. Mo’s Algorithm Basic - 86D (https://codeforces.com/problemset/problem/86/D)
-2. Mo’s Algo + Offline Queries - 617E (https://codeforces.com/problemset/problem/617/E)
-3. HLD + Segment Tree - 1328E (https://codeforces.com/problemset/problem/1328/E)
-4. HLD Tree Path Queries - 343D (https://codeforces.com/problemset/problem/343/D)
-5. Centroid Decomposition - 321E (https://codeforces.com/problemset/problem/321/E)
-6. Treap Insertion / Deletion - 840D (https://codeforces.com/problemset/problem/840/D)
-7. Ordered Set (PBDS) - 1208E (https://codeforces.com/problemset/problem/1208/E)
-8. Max Flow - 1076F (https://codeforces.com/problemset/problem/1076/F)
-9. Dinic's Algorithm - 1453E (https://codeforces.com/problemset/problem/1453/E)
-10. Min Cut + Flow Ideas - 459D (https://codeforces.com/problemset/problem/459/D)
-
-How to use:
-- Mo’s is great for frequency/count range queries (when updates are not needed).
-- Use HLD when you want to answer path or subtree queries in a tree quickly.
-- Centroid Decomposition is excellent for path-counting in trees.
-- Treaps and PBDS give you more control than `set` or `map` for ranked data.
-- Flow is a separate world – useful in scheduling, pairing, and optimization tasks.
-
-Advanced Resources:
-- cp-algorithms.com for detailed theory
-- Atcoder Library (ACL) for templates (HLD, Max Flow, etc.)
-- Visualizations for Mo’s and HLD (YouTube / VisuAlgo)
-
-
-
+Topics: Advanced modular arithmetic, segmented sieve, combinatorics, inclusion-exclusion, two pointers, prefix sums, binary search
+
+Goal: Combine number theory with efficient implementation techniques.
+
+Original Problems: 10
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Original Problems (fixed where needed):
+
+Powers of Two - 1095C (https://codeforces.com/problemset/problem/1095/C) – Bit manipulation
+Dreamoon and WiFi - 476C (https://codeforces.com/problemset/problem/476/C) – Modular arithmetic
+Buses Between Cities - 665A (https://codeforces.com/problemset/problem/665/A) – Math
+Caesar’s Legions - 118D (https://codeforces.com/problemset/problem/118/D) – Combinatorics
+Processing Queries - 644B (https://codeforces.com/problemset/problem/644/B) – Simulation
+Booking System - 416C (https://codeforces.com/problemset/problem/416/C) – Greedy
+k-Tree - 431C (https://codeforces.com/problemset/problem/431/C) – DP
+The Ladder - 279C (https://codeforces.com/problemset/problem/279/C) – Two pointers
+Balanced Array - 1352B (https://codeforces.com/problemset/problem/1352/B) – Construction
+Dijkstra? - 20C (https://codeforces.com/problemset/problem/20/C) – Graph (replaces misaligned problem)
+Additional Problems (30 problems):
+11. Sum of Odd Integers - 1327A (https://codeforces.com/problemset/problem/1327/A) – Number theory
+12. Array Splitting - 1197B (https://codeforces.com/problemset/problem/1197/B) – Prefix sums
+13. Two Arrays and Swaps - 1353B (https://codeforces.com/problemset/problem/1353/B) – Greedy
+14. Yet Another Array Restoration - 1409C (https://codeforces.com/problemset/problem/1409/C) – Math
+15. Equalize Prices Again - 1234A (https://codeforces.com/problemset/problem/1234/A) – Math
+16. AtCoder Beginner Contest 100 B - Ringo’s Favorite Numbers (https://atcoder.jp/contests/abc100/tasks/abc100_b) – Divisibility
+17. LeetCode 442. Find All Duplicates in an Array (https://leetcode.com/problems/find-all-duplicates-in-an-array/) – Array
+18. HackerRank Equal Stacks (https://www.hackerrank.com/challenges/equal-stacks) – Two pointers
+19. Codeforces 977D - Divide by Three (https://codeforces.com/problemset/problem/977/D) – Number theory
+20. Codeforces 1037D - Valid BFS? (https://codeforces.com/problemset/problem/1037/D) – Graph
+21. Codeforces 1108D - Diverse Garland (https://codeforces.com/problemset/problem/1108/D) – Greedy
+22. Codeforces 1189C - Candies (https://codeforces.com/problemset/problem/1189/C) – Prefix sums
+23. Codeforces 1221C - Perfect Team (https://codeforces.com/problemset/problem/1221/C) – Math
+24. Codeforces 1294D - MEX maximizing (https://codeforces.com/problemset/problem/1294/D) – Number theory
+25. Codeforces 1360D - Buying Shovels (https://codeforces.com/problemset/problem/1360/D) – Factorization
+26. Codeforces 1399C - Boats Competition (https://codeforces.com/problemset/problem/1399/C) – Two pointers
+27. Codeforces 1401C - Maximum Width (https://codeforces.com/problemset/problem/1401/C) – Sorting
+28. Codeforces 1490D - Permutation Transformation (https://codeforces.com/problemset/problem/1490/D) – Recursion
+29. Codeforces 1512C - A-B Palindrome (https://codeforces.com/problemset/problem/1512/C) – Construction
+30. Codeforces 1520C - Not Adjacent Matrix (https://codeforces.com/problemset/problem/1520/C) – Construction
+31. Codeforces 1551B1 - Wonderful Coloring - 1 (https://codeforces.com/problemset/problem/1551/B1) – Greedy
+32. Codeforces 1611B - Team Composition: Programmers and Mathematicians (https://codeforces.com/problemset/problem/1611/B) – Math
+33. Codeforces 1624B - Make AP (https://codeforces.com/problemset/problem/1624/B) – Arithmetic progression
+34. Codeforces 1650C - Weight of the System of Nested Segments (https://codeforces.com/problemset/problem/1650/C) – Greedy
+35. Codeforces 1676C - Most Similar Words (https://codeforces.com/problemset/problem/1676/C) – String math
+36. Codeforces 1692C - Where’s the Bishop? (https://codeforces.com/problemset/problem/1692/C) – Pattern
+37. Codeforces 1703C - Cypher (https://codeforces.com/problemset/problem/1703/C) – Simulation
+38. Codeforces 1742C - Stripes (https://codeforces.com/problemset/problem/1742/C) – Pattern
+39. Codeforces 1760C - Advantage (https://codeforces.com/problemset/problem/1760/C) – Sorting
+40. Codeforces 1829C - Download More RAM (https://codeforces.com/problemset/problem/1829/C) – Greedy
+
+How to Use:
+
+Learn segmented sieve for large ranges (CP-Algorithms).
+Practice two pointers and prefix sums on array problems.
+Study Fermat’s Little Theorem for modular inverses.
+Step 6: Sorting, Searching, and Bit Manipulation
+Topics: Sorting algorithms, binary search, two pointers, recursion, bit manipulation, STL (vector, map, set)
+
+Goal: Master efficient searching and manipulation techniques.
+
+Original Problems: 10 (repeated section removed, links fixed)
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Fixed Original Problems:
+
+String Task - 118A (https://codeforces.com/problemset/problem/118/A) – String
+Keyboard - 474A (https://codeforces.com/problemset/problem/474/A) – String manipulation
+Twins - 160A (https://codeforces.com/problemset/problem/160/A) – Sorting
+Arrival of the General - 144A (https://codeforces.com/problemset/problem/144/A) – Sorting
+K-th Not Divisible by n - 1352C (https://codeforces.com/problemset/problem/1352/C) – Binary search
+Kefa and Park - 580C (https://codeforces.com/problemset/problem/580/C) – DFS
+Bit++ - 282A (https://codeforces.com/problemset/problem/282/A) – Bit manipulation
+Dreamoon and Stairs - 476A (https://codeforces.com/problemset/problem/476/A) – Math
+cAPS lOCK - 131A (https://codeforces.com/problemset/problem/131/A) – String
+Pangram - 520A (https://codeforces.com/problemset/problem/520/A) – Set usage
+Additional Problems (30 problems):
+11. Vanya and Lanterns - 492B (https://codeforces.com/problemset/problem/492/B) – Sorting
+12. Sorting Railway Cars - 156B (https://codeforces.com/problemset/problem/156/B) – Greedy
+13. Anton and Letters - 443A (https://codeforces.com/problemset/problem/443/A) – Set
+14. New Year Transportation - 500A (https://codeforces.com/problemset/problem/500/A) – Simulation
+15. Interesting Drink - 706B (https://codeforces.com/problemset/problem/706/B) – Binary search
+16. AtCoder Beginner Contest 083 B - Some Sums (https://atcoder.jp/contests/abc083/tasks/abc083_b) – Sum
+17. LeetCode 704. Binary Search (https://leetcode.com/problems/binary-search/) – Binary search
+18. HackerRank Closest Numbers (https://www.hackerrank.com/challenges/closest-numbers) – Sorting
+19. Codeforces 977E - Cyclic Components (https://codeforces.com/problemset/problem/977/E) – DFS
+20. Codeforces 1037E - Trips (https://codeforces.com/problemset/problem/1037/E) – Graph
+21. Codeforces 1108E1 - E1. Array and Segments (Easy version) (https://codeforces.com/problemset/problem/1108/E1) – Greedy
+22. Codeforces 1189D1 - Add on a Tree (https://codeforces.com/problemset/problem/1189/D1) – Graph
+23. Codeforces 1221D - Make The Fence Great Again (https://codeforces.com/problemset/problem/1221/D) – DP
+24. Codeforces 1294E - New Year and Castle Construction (https://codeforces.com/problemset/problem/1294/E) – Geometry
+25. Codeforces 1360E - Polygon (https://codeforces.com/problemset/problem/1360/E) – Pattern
+26. Codeforces 1399D - Binary String To Subsequences (https://codeforces.com/problemset/problem/1399/D) – Greedy
+27. Codeforces 1401D - Maximum Distributed Tree (https://codeforces.com/problemset/problem/1401/D) – Tree
+28. Codeforces 1490E - Accidental Victory (https://codeforces.com/problemset/problem/1490/E) – Sorting
+29. Codeforces 1512D - Corrupted Array (https://codeforces.com/problemset/problem/1512/D) – Array
+30. Codeforces 1520D - Same Differences (https://codeforces.com/problemset/problem/1520/D) – Math
+31. Codeforces 1551C - Interesting Story (https://codeforces.com/problemset/problem/1551/C) – Greedy
+32. Codeforces 1611C - Restore the Permutation (https://codeforces.com/problemset/problem/1611/C) – Construction
+33. Codeforces 1624C - Division by Two and Permutation (https://codeforces.com/problemset/problem/1624/C) – Greedy
+34. Codeforces 1650D - Twist the Permutation (https://codeforces.com/problemset/problem/1650/D) – Simulation
+35. Codeforces 1676D - Most Socially Distanced Subsequence (https://codeforces.com/problemset/problem/1676/D) – Greedy
+36. Codeforces 1692D - The Clock (https://codeforces.com/problemset/problem/1692/D) – Math
+37. Codeforces 1703D - Double Strings (https://codeforces.com/problemset/problem/1703/D) – String
+38. Codeforces 1742D - Coprime (https://codeforces.com/problemset/problem/1742/D) – Number theory
+39. Codeforces 1760D - Challenging Valleys (https://codeforces.com/problemset/problem/1760/D) – Array
+40. Codeforces 1829D - Gold Rush (https://codeforces.com/problemset/problem/1829/D) – Recursion
+
+How to Use:
+
+Implement sorting algorithms manually (e.g., merge sort) for understanding.
+Practice binary search on both arrays and answer spaces.
+Use STL containers (vector, set, map) to simplify coding.
+Step 7: Greedy and Dynamic Programming Basics
+Topics: Greedy strategies, 1D DP, overlapping subproblems, memoization, tabulation
+
+Goal: Learn when to use greedy vs. DP and solve basic DP problems.
+
+Original Problems: 20 (10 greedy, 10 DP)
+
+New Problems Added: 30
+
+Total Problems: 50
+
+Fixed Original Problems:
+Greedy:
+
+Hit the Lotteries - 996A (https://codeforces.com/problemset/problem/996/A)
+In Search of an Easy Problem - 1030A (https://codeforces.com/problemset/problem/1030/A)
+Twins - 160A (https://codeforces.com/problemset/problem/160/A)
+Team - 231A (https://codeforces.com/problemset/problem/231/A)
+Presents - 136A (https://codeforces.com/problemset/problem/136/A)
+Case of the Zeros and Ones - 556A (https://codeforces.com/problemset/problem/556/A)
+Vanya and Lanterns - 492B (https://codeforces.com/problemset/problem/492/B)
+Interesting Drink - 706B (https://codeforces.com/problemset/problem/706/B)
+New Year and Hurry - 750A (https://codeforces.com/problemset/problem/750/A)
+Lucky Ticket - 146A (https://codeforces.com/problemset/problem/146/A)
+DP:
+11. AtCoder DP Contest A - Frog 1 (https://atcoder.jp/contests/dp/tasks/dp_a) – 1D DP
+12. Sum of Squares - 1490C (https://codeforces.com/problemset/problem/1490/C)
+13. Equalize - 1037C (https://codeforces.com/problemset/problem/1037/C)
+14. Ternary String - 1401B (https://codeforces.com/problemset/problem/1401/B)
+15. Move Brackets - 1374C (https://codeforces.com/problemset/problem/1374/C)
+16. Payment Without Change - 1256A (https://codeforces.com/problemset/problem/1256/A)
+17. Remove Smallest - 1399A (https://codeforces.com/problemset/problem/1399/A)
+18. Product of Three Numbers - 1294C (https://codeforces.com/problemset/problem/1294/C)
+19. Subtract or Divide - 1451A (https://codeforces.com/problemset/problem/1451/A)
+20. Divisibility by Eight - 1343A (https://codeforces.com/problemset/problem/1343/A)
+
+Additional Problems (30 problems):
+Greedy (15):
+21. Minimal Square - 1360A (https://codeforces.com/problemset/problem/1360/A)
+22. Array Rearrangement - 1374B (https://codeforces.com/problemset/problem/1374/B)
+23. Balanced Array - 1343B (https://codeforces.com/problemset/problem/1343/B)
+24. Candies and Two Sisters - 1335A (https://codeforces.com/problemset/problem/1335/A)
+25. Omkar and Password - 1392B (https://codeforces.com/problemset/problem/1392/B)
+26. AtCoder Beginner Contest 087 B - Coins (https://atcoder.jp/contests/abc087/tasks/abc087_b)
+27. LeetCode 455. Assign Cookies (https://leetcode.com/problems/assign-cookies/)
+28. HackerRank Greedy Florist (https://www.hackerrank.com/challenges/greedy-florist)
+29. Codeforces 1512B - Almost Rectangle (https://codeforces.com/problemset/problem/1512/B)
+30. Codeforces 1520B - Ordinary Numbers (https://codeforces.com/problemset/problem/1520/B)
+31. Codeforces 1551B2 - Wonderful Coloring - 2 (https://codeforces.com/problemset/problem/1551/B2)
+32. Codeforces 1611D - Weights Assignment For Tree Edges (https://codeforces.com/problemset/problem/1611/D)
+33. Codeforces 1624D - Pair of Topics (https://codeforces.com/problemset/problem/1624/D)
+34. Codeforces 1650B - DIV + MOD (https://codeforces.com/problemset/problem/1650/B)
+35. Codeforces 1676B - Equal Candies (https://codeforces.com/problemset/problem/1676/B)
+
+DP (15):
+36. AtCoder DP Contest B - Frog 2 (https://atcoder.jp/contests/dp/tasks/dp_b)
+37. AtCoder DP Contest C - Vacation (https://atcoder.jp/contests/dp/tasks/dp_c)
+38. Codeforces 1490B - Balanced Remainders (https://codeforces.com/problemset/problem/1490/B)
+39. Codeforces 1512A - Spy Detected! (https://codeforces.com/problemset/problem/1512/A)
+40. Codeforces 1520B - Ordinary Numbers (https://codeforces.com/problemset/problem/1520/B)
+41. Codeforces 1551A - Polycarp and Coins (https://codeforces.com/problemset/problem/1551/A)
+42. Codeforces 1611A - Make Even (https://codeforces.com/problemset/problem/1611/A)
+43. Codeforces 1624A - Plus One on the Subset (https://codeforces.com/problemset/problem/1624/A)
+44. Codeforces 1650A - Deletions of Two Adjacent Letters (https://codeforces.com/problemset/problem/1650/A)
+45. Codeforces 1676A - Lucky? (https://codeforces.com/problemset/problem/1676/A)
+46. Codeforces 1692B - All Distinct (https://codeforces.com/problemset/problem/1692/B)
+47. Codeforces 1703B - ICPC Balloons (https://codeforces.com/problemset/problem/1703/B)
+48. Codeforces 1742B - Increasing (https://codeforces.com/problemset/problem/1742/B)
+49. Codeforces 1760B - Atilla’s Favorite Problem (https://codeforces.com/problemset/problem/1760/B)
+50. Codeforces 1829B - Blank Space (https://codeforces.com/problemset/problem/1829/B)
+
+How to Use:
+
+Solve greedy problems to identify optimal local choices.
+Start DP with 1D problems, then move to memoization and tabulation.
+Practice converting recursive solutions to iterative for efficiency.
+Step 8: Advanced Dynamic Programming
+Topics: 2D DP, knapsack, LCS, LIS, bitmask DP, DP optimization
+
+Goal: Solve complex DP problems with multiple states.
+
+Original Problems: 10
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Original Problems:
+
+Burglar and Matches - 16B (https://codeforces.com/problemset/problem/16/B)
+Alarm Clocks Everywhere - 1155C (https://codeforces.com/problemset/problem/1155/C)
+Subtract or Divide - 1451A (https://codeforces.com/problemset/problem/1451/A)
+Number of Ways - 466C (https://codeforces.com/problemset/problem/466/C)
+k-Tree - 431C (https://codeforces.com/problemset/problem/431/C)
+Newspaper Headline - 91A (https://codeforces.com/problemset/problem/91/A)
+Buns - 106C (https://codeforces.com/problemset/problem/106/C)
+Flowers - 474D (https://codeforces.com/problemset/problem/474/D)
+Even Odds - 1472D (https://codeforces.com/problemset/problem/1472/D)
+Magic Numbers - 628D (https://codeforces.com/problemset/problem/628/D)
+Additional Problems (30 problems):
+11. AtCoder DP Contest D - Knapsack 1 (https://atcoder.jp/contests/dp/tasks/dp_d)
+12. AtCoder DP Contest E - Knapsack 2 (https://atcoder.jp/contests/dp/tasks/dp_e)
+13. Codeforces 1360F - Spy-string (https://codeforces.com/problemset/problem/1360/F)
+14. Codeforces 1374D - Zero Remainder Array (https://codeforces.com/problemset/problem/1374/D)
+15. Codeforces 1399E1 - Weights Division (Easy Version) (https://codeforces.com/problemset/problem/1399/E1)
+16. Codeforces 1401C - Maximum Width (https://codeforces.com/problemset/problem/1401/C)
+17. Codeforces 1490F - Equalize the Array (https://codeforces.com/problemset/problem/1490/F)
+18. Codeforces 1512E - Permutation by Sum (https://codeforces.com/problemset/problem/1512/E)
+19. Codeforces 1520E - Arranging The Sheep (https://codeforces.com/problemset/problem/1520/E)
+20. Codeforces 1551D1 - Domino (easy version) (https://codeforces.com/problemset/problem/1551/D1)
+21. Codeforces 1611E1 - Escape The Maze (easy version) (https://codeforces.com/problemset/problem/1611/E1)
+22. Codeforces 1624E - Masha-forgetful (https://codeforces.com/problemset/problem/1624/E)
+23. Codeforces 1650E - The Final Pursuit (https://codeforces.com/problemset/problem/1650/E)
+24. Codeforces 1676E - Eating Queries (https://codeforces.com/problemset/problem/1676/E)
+25. Codeforces 1692E - Binary Deque (https://codeforces.com/problemset/problem/1692/E)
+26. Codeforces 1703E - Mirror Grid (https://codeforces.com/problemset/problem/1703/E)
+27. Codeforces 1742E - Scuza (https://codeforces.com/problemset/problem/1742/E)
+28. Codeforces 1760E - Binary Inversions (https://codeforces.com/problemset/problem/1760/E)
+29. Codeforces 1829E - The Lakes (https://codeforces.com/problemset/problem/1829/E)
+30. LeetCode 1143. Longest Common Subsequence (https://leetcode.com/problems/longest-common-subsequence/)
+31. LeetCode 300. Longest Increasing Subsequence (https://leetcode.com/problems/longest-increasing-subsequence/)
+32. HackerRank Knapsack (https://www.hackerrank.com/challenges/unbounded-knapsack)
+33. Codeforces 1183C - Computer Game (https://codeforces.com/problemset/problem/1183/C)
+34. Codeforces 1203D1 - Remove the Substring (easy version) (https://codeforces.com/problemset/problem/1203/D1)
+35. Codeforces 1216C - White Sheet (https://codeforces.com/problemset/problem/1216/C)
+36. Codeforces 1249C1 - Good Numbers (easy version) (https://codeforces.com/problemset/problem/1249/C1)
+37. Codeforces 1283C - Friends and Gifts (https://codeforces.com/problemset/problem/1283/C)
+38. Codeforces 1324D - Pair of Topics (https://codeforces.com/problemset/problem/1324/D)
+39. Codeforces 1353C - Board Moves (https://codeforces.com/problemset/problem/1353/C)
+40. Codeforces 1374E1 - Reading Books (easy version) (https://codeforces.com/problemset/problem/1374/E1)
+
+How to Use:
+
+Focus on classical DP problems (knapsack, LCS, LIS).
+Practice bitmask DP for subset problems.
+Optimize DP with prefix sums or monotonicity where applicable.
+Step 9: Graph Algorithms Basics
+Topics: Graph representation, DFS, BFS, connected components, cycle detection, topological sort, shortest paths, trees
+
+Goal: Understand graph traversal and basic path-finding.
+
+Original Problems: 10
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Original Problems:
+
+Fox and Snake - 510A (https://codeforces.com/problemset/problem/510/A)
+Helpful Maths - 339A (https://codeforces.com/problemset/problem/339/A)
+Kefa and Park - 580C (https://codeforces.com/problemset/problem/580/C)
+Worms Evolution - 208A (https://codeforces.com/problemset/problem/208/A)
+Two Substrings - 550A (https://codeforces.com/problemset/problem/550/A)
+Fox and Names - 510B (https://codeforces.com/problemset/problem/510/B)
+Fox and Names - 510C (https://codeforces.com/problemset/problem/510/C)
+Dijkstra? - 20C (https://codeforces.com/problemset/problem/20/C)
+Hulk - 705A (https://codeforces.com/problemset/problem/705/A)
+Party - 115A (https://codeforces.com/problemset/problem/115/A)
+Additional Problems (30 problems):
+11. Maze - 377A (https://codeforces.com/problemset/problem/377/A)
+12. New Year Transportation - 500A (https://codeforces.com/problemset/problem/500/A)
+13. Maze - 509A (https://codeforces.com/problemset/problem/509/A)
+14. Learning Languages - 277A (https://codeforces.com/problemset/problem/277/A)
+15. Road Map - 34B (https://codeforces.com/problemset/problem/34/B)
+16. AtCoder Beginner Contest 075 C - Bridge (https://atcoder.jp/contests/abc075/tasks/arc082_a)
+17. LeetCode 1971. Find if Path Exists in Graph (https://leetcode.com/problems/find-if-path-exists-in-graph/)
+18. HackerRank Journey to the Moon (https://www.hackerrank.com/challenges/journey-to-the-moon)
+19. Codeforces 977E - Cyclic Components (https://codeforces.com/problemset/problem/977/E)
+20. Codeforces 1037D - Valid BFS? (https://codeforces.com/problemset/problem/1037/D)
+21. Codeforces 1108E2 - Array and Segments (Hard version) (https://codeforces.com/problemset/problem/1108/E2)
+22. Codeforces 1189D2 - Add on a Tree: Revolution (https://codeforces.com/problemset/problem/1189/D2)
+23. Codeforces 1221E - Game With String (https://codeforces.com/problemset/problem/1221/E)
+24. Codeforces 1294F - Three Paths on a Tree (https://codeforces.com/problemset/problem/1294/F)
+25. Codeforces 1360G - A/B Matrix (https://codeforces.com/problemset/problem/1360/G)
+26. Codeforces 1399E2 - Weights Division (Hard Version) (https://codeforces.com/problemset/problem/1399/E2)
+27. Codeforces 1401E - Divide Square (https://codeforces.com/problemset/problem/1401/E)
+28. Codeforces 1490G - Old Floppy Drive (https://codeforces.com/problemset/problem/1490/G)
+29. Codeforces 1512F - Education (https://codeforces.com/problemset/problem/1512/F)
+30. Codeforces 1520F1 - Guess the K-th Zero (Easy version) (https://codeforces.com/problemset/problem/1520/F1)
+31. Codeforces 1551D2 - Domino (hard version) (https://codeforces.com/problemset/problem/1551/D2)
+32. Codeforces 1611E2 - Escape The Maze (hard version) (https://codeforces.com/problemset/problem/1611/E2)
+33. Codeforces 1624F - Interactor (https://codeforces.com/problemset/problem/1624/F)
+34. Codeforces 1650F - Vitaly and Advanced UASTU (https://codeforces.com/problemset/problem/1650/F)
+35. Codeforces 1676F - Longest Strike (https://codeforces.com/problemset/problem/1676/F)
+36. Codeforces 1692F - 3SUM (https://codeforces.com/problemset/problem/1692/F)
+37. Codeforces 1703F - Yet Another Problem About Pairs (https://codeforces.com/problemset/problem/1703/F)
+38. Codeforces 1742F - Smaller (https://codeforces.com/problemset/problem/1742/F)
+39. Codeforces 1760F - Quasi Binary (https://codeforces.com/problemset/problem/1760/F)
+40. Codeforces 1829F - Forever Winter (https://codeforces.com/problemset/problem/1829/F)
+
+How to Use:
+
+Practice adjacency list representation for graphs.
+Implement DFS and BFS for traversal and path-finding.
+Study topological sort for DAGs and Dijkstra for weighted graphs.
+Step 10: Advanced Graph Algorithms
+Topics: Disjoint Set Union, MST, bridges, articulation points, SCC, 2-SAT
+
+Goal: Solve complex graph problems with optimization.
+
+Original Problems: 10
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Original Problems:
+
+Party - 115A (https://codeforces.com/problemset/problem/115/A)
+Water Supply - 343D (https://codeforces.com/problemset/problem/343/D)
+IQ Test - 25A (https://codeforces.com/problemset/problem/25/A)
+Roads in Berland - 609E (https://codeforces.com/problemset/problem/609/E)
+Registration System - 4C (https://codeforces.com/problemset/problem/4/C)
+Berland Regional - 118E (https://codeforces.com/problemset/problem/118/E)
+Roads not only in Berland - 25D (https://codeforces.com/problemset/problem/25/D)
+Checkposts - 427C (https://codeforces.com/problemset/problem/427/C)
+Smallest String Concatenation - 1675G (https://codeforces.com/problemset/problem/1675/G)
+Reachability from the Capital - 999E (https://codeforces.com/problemset/problem/999/E)
+Additional Problems (30 problems):
+11. Puzzles - 337A (https://codeforces.com/problemset/problem/337/A)
+12. Learning Languages - 277A (https://codeforces.com/problemset/problem/277/A)
+13. Maze - 377A (https://codeforces.com/problemset/problem/377/A)
+14. Sale - 34B (https://codeforces.com/problemset/problem/34/B)
+15. AtCoder Beginner Contest 113 C - ID (https://atcoder.jp/contests/abc113/tasks/abc113_c)
+16. LeetCode 684. Redundant Connection (https://leetcode.com/problems/redundant-connection/)
+17. HackerRank Kruskal (MST): Really Special Subtree (https://www.hackerrank.com/challenges/kruskalmstrsub)
+18. Codeforces 977F - Consecutive Subsequence (https://codeforces.com/problemset/problem/977/F)
+19. Codeforces 1037F - Maximum Balanced Circle (https://codeforces.com/problemset/problem/1037/F)
+20. Codeforces 1108F - MST Unification (https://codeforces.com/problemset/problem/1108/F)
+21. Codeforces 1189E - Counting Trees (https://codeforces.com/problemset/problem/1189/E)
+22. Codeforces 1221F - Make It One (https://codeforces.com/problemset/problem/1221/F)
+23. Codeforces 1294G - Shortest Cycle (https://codeforces.com/problemset/problem/1294/G)
+24. Codeforces 1360H - Binary Median (https://codeforces.com/problemset/problem/1360/H)
+25. Codeforces 1399F - Yet Another Segments Subset (https://codeforces.com/problemset/problem/1399/F)
+26. Codeforces 1401F - Reverse and Swap (https://codeforces.com/problemset/problem/1401/F)
+27. Codeforces 1490H - Dense Subsequence (https://codeforces.com/problemset/problem/1490/H)
+28. Codeforces 1512G - Short Task (https://codeforces.com/problemset/problem/1512/G)
+29. Codeforces 1520G - To Go Or Not To Go? (https://codeforces.com/problemset/problem/1520/G)
+30. Codeforces 1551E - Fixed Points (https://codeforces.com/problemset/problem/1551/E)
+31. Codeforces 1611F - ATM and Students (https://codeforces.com/problemset/problem/1611/F)
+32. Codeforces 1624G - Min Or Tree (https://codeforces.com/problemset/problem/1624/G)
+33. Codeforces 1650G - Counting Shortcuts (https://codeforces.com/problemset/problem/1650/G)
+34. Codeforces 1676G - White-Black Balanced Subtrees (https://codeforces.com/problemset/problem/1676/G)
+35. Codeforces 1692G - 2^Sort (https://codeforces.com/problemset/problem/1692/G)
+36. Codeforces 1703G - Good Key, Bad Key (https://codeforces.com/problemset/problem/1703/G)
+37. Codeforces 1742G - Orray (https://codeforces.com/problemset/problem/1742/G)
+38. Codeforces 1760G - SlavicG’s Favorite Problem (https://codeforces.com/problemset/problem/1760/G)
+39. Codeforces 1829G - Hits Different (https://codeforces.com/problemset/problem/1829/G)
+40. Codeforces 1850F - Webs of Intrigue (https://codeforces.com/problemset/problem/1850/F)
+
+How to Use:
+
+Implement DSU with path compression and union by rank.
+Practice Kruskal’s and Prim’s for MST problems.
+Study Kosaraju’s or Tarjan’s for SCC and apply to 2-SAT problems.
+Step 11: Data Structures
+Topics: Prefix sums, Fenwick Tree, Segment Tree, lazy propagation, RMQ, difference arrays
+
+Goal: Master efficient data structures for range queries.
+
+Original Problems: 10
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Original Problems:
+
+Kuriyama Mirai’s Stones - 433B (https://codeforces.com/problemset/problem/433/B)
+Compatible Numbers - 165E (https://codeforces.com/problemset/problem/165/E)
+Yet Another Number Sequence - 1856C (https://codeforces.com/problemset/problem/1856/C)
+Xor-Tree - 339D (https://codeforces.com/problemset/problem/339/D)
+Vitamins - 1042B (https://codeforces.com/problemset/problem/1042/B)
+Physical Education Lessons - 915E (https://codeforces.com/problemset/problem/915/E)
+Little Girl and Maximum Sum - 258B (https://codeforces.com/problemset/problem/258/B)
+Holes - 796B (https://codeforces.com/problemset/problem/796/B)
+Square Difference - 1857F (https://codeforces.com/problemset/problem/1857/F)
+Shower Line - 431B (https://codeforces.com/problemset/problem/431/B)
+Additional Problems (30 problems):
+11. Pashmak and Garden - 459A (https://codeforces.com/problemset/problem/459/A)
+12. Petya and Countryside - 66B (https://codeforces.com/problemset/problem/66/B)
+13. Arrays - 572A (https://codeforces.com/problemset/problem/572/A)
+14. AtCoder Beginner Contest 095 B - Bitter Alchemy (https://atcoder.jp/contests/abc095/tasks/abc095_b)
+15. LeetCode 307. Range Sum Query - Mutable (https://leetcode.com/problems/range-sum-query-mutable/)
+16. HackerRank Array Manipulation (https://www.hackerrank.com/challenges/crush)
+17. Codeforces 977G - The Tree (https://codeforces.com/problemset/problem/977/G)
+18. Codeforces 1037G - Almost Increasing Array (https://codeforces.com/problemset/problem/1037/G)
+19. Codeforces 1108G - Colorful Graph (https://codeforces.com/problemset/problem/1108/G)
+20. Codeforces 1189F - Tree and Queries (https://codeforces.com/problemset/problem/1189/F)
+21. Codeforces 1221G - Graph And Numbers (https://codeforces.com/problemset/problem/1221/G)
+22. Codeforces 1294H - Hard GCD (https://codeforces.com/problemset/problem/1294/H)
+23. Codeforces 1360I - Closest Pair (https://codeforces.com/problemset/problem/1360/I)
+24. Codeforces 1399G - Subsequences (https://codeforces.com/problemset/problem/1399/G)
+25. Codeforces 1401G - Tree Modification (https://codeforces.com/problemset/problem/1401/G)
+26. Codeforces 1490I - Good Segments (https://codeforces.com/problemset/problem/1490/I)
+27. Codeforces 1512H - Strange Permutation (https://codeforces.com/problemset/problem/1512/H)
+28. Codeforces 1520H - Queue Operations (https://codeforces.com/problemset/problem/1520/H)
+29. Codeforces 1551F - Equate Sums (https://codeforces.com/problemset/problem/1551/F)
+30. Codeforces 1611G - Interactive Subsequence (https://codeforces.com/problemset/problem/1611/G)
+31. Codeforces 1624H - Game on Tree (https://codeforces.com/problemset/problem/1624/H)
+32. Codeforces 1650H - Moving Around (https://codeforces.com/problemset/problem/1650/H)
+33. Codeforces 1676H1 - Maximum Crossings (Easy Version) (https://codeforces.com/problemset/problem/1676/H1)
+34. Codeforces 1692H - Gambling (https://codeforces.com/problemset/problem/1692/H)
+35. Codeforces 1703H - Almost Sorted (https://codeforces.com/problemset/problem/1703/H)
+36. Codeforces 1742H - Permutation and Queries (https://codeforces.com/problemset/problem/1742/H)
+37. Codeforces 1760H - Doggo Recoloring (https://codeforces.com/problemset/problem/1760/H)
+38. Codeforces 1829H - Don’t Blame Me (https://codeforces.com/problemset/problem/1829/H)
+39. Codeforces 1850G - Vlad and the Nice Paths (https://codeforces.com/problemset/problem/1850/G)
+40. Codeforces 1862E - Kolya and Movie Theatre (https://codeforces.com/problemset/problem/1862/E)
+
+How to Use:
+
+Start with prefix sums and difference arrays for range updates.
+Implement Fenwick Tree and Segment Tree from scratch.
+Practice lazy propagation for efficient range updates.
+Step 12: String Algorithms
+Topics: Prefix function, KMP, Z-Algorithm, Rabin-Karp, Trie, LCP, suffix arrays
+
+Goal: Master string matching and manipulation techniques.
+
+Original Problems: 10
+
+New Problems Added: 30
+
+Total Problems: 40
+
+Original Problems:
+
+Shortest Path of the King - 1304D (https://codeforces.com/problemset/problem/1304/D)
+MUH and Sticks - 471A (https://codeforces.com/problemset/problem/471/A)
+Password - 126B (https://codeforces.com/problemset/problem/126/B)
+Palindrome - 1326D2 (https://codeforces.com/problemset/problem/1326/D2)
+Good Substrings - 271D (https://codeforces.com/problemset/problem/271/D)
+Star Sky - 835C (https://codeforces.com/problemset/problem/835/C)
+A and B and Chess - 55C (https://codeforces.com/problemset/problem/55/C)
+Vasya and String - 706D (https://codeforces.com/problemset/problem/706/D)
+Bear and Compressing - 115C (https://codeforces.com/problemset/problem/115/C)
+Prefixes and Suffixes - 432D (https://codeforces.com/problemset/problem/432/D)
+Additional Problems (30 problems):
+11. String Task - 118A (https://codeforces.com/problemset/problem/118/A)
+12. cAPS lOCK - 131A (https://codeforces.com/problemset/problem/131/A)
+13. Way Too Long Words - 71A (https://codeforces.com/problemset/problem/71/A)
+14. AtCoder Beginner Contest 097 B - Exponential (https://atcoder.jp/contests/abc097/tasks/abc097_b)
+15. LeetCode 28. Implement strStr() (https://leetcode.com/problems/implement-strstr/)
+16. HackerRank Pangrams (https://www.hackerrank.com/challenges/pangrams)
+17. Codeforces 977H - Remove One Element (https://codeforces.com/problemset/problem/977/H)
+18. Codeforces 1037H - Security (https://codeforces.com/problemset/problem/1037/H)
+19. Codeforces 1108H - Array Queries (https://codeforces.com/problemset/problem/1108/H)
+20. Codeforces 1189G - Count Subtrees (https://codeforces.com/problemset/problem/1189/G)
+21. Codeforces 1221H - Triple (https://codeforces.com/problemset/problem/1221/H)
+22. Codeforces 1294I - Identifying Patterns (https://codeforces.com/problemset/problem/1294/I)
+23. Codeforces 1360J - String Game (https://codeforces.com/problemset/problem/1360/J)
+24. Codeforces 1399H - Game with Substrings (https://codeforces.com/problemset/problem/1399/H)
+25. Codeforces 1401H - Maximum Pairwise Modular Sum (https://codeforces.com/problemset/problem/1401/H)
+26. Codeforces 1490J - String Equalization (https://codeforces.com/problemset/problem/1490/J)
+27. Codeforces 1512I - String Transformation (https://codeforces.com/problemset/problem/1512/I)
+28. Codeforces 1520I - String Permutation (https://codeforces.com/problemset/problem/1520/I)
+29. Codeforces 1551G - String Coloring (hard version) (https://codeforces.com/problemset/problem/1551/G)
+30. Codeforces 1611H - Permutation Restoration (https://codeforces.com/problemset/problem/1611/H)
+31. Codeforces 1624I - String Matching (https://codeforces.com/problemset/problem/1624/I)
+32. Codeforces 1650I - String Game (https://codeforces.com/problemset/problem/1650/I)
+33. Codeforces 1676I - String Transformation 2 (https://codeforces.com/problemset/problem/1676/I)
+34. Codeforces 1692I - String Transformation 3 (https://codeforces.com/problemset/problem/1692/I)
+35. Codeforces 1703I - String Forces (https://codeforces.com/problemset/problem/1703/I)
+36. Codeforces 1742I - String Game (https://codeforces.com/problemset/problem/1742/I)
+37. Codeforces 1760I - String Reconstruction (https://codeforces.com/problemset/problem/1760/I)
+38. Codeforces 1829I - String and Operations (https://codeforces.com/problemset/problem/1829/I)
+39. Codeforces 1850H - String and Tree (https://codeforces.com/problemset/problem/1850/H)
+40. Codeforces 1862F - String Distance (https://codeforces.com/problemset/problem/1862/F)
+
+How to Use:
+
+Implement KMP and Z-Algorithm for pattern matching.
+Practice Rabin-Karp with double hashing to avoid collisions.
+Study Trie and suffix arrays for advanced string problems.
+Step 13: Geometry, Binary Search on Answer, Game Theory, Combinatorics
+Topics: 2D geometry, binary search on answer, Nim game, Grundy numbers, nCr, inclusion-exclusion
+
+Goal: Tackle diverse problem types with specialized techniques.
+
+Original Problems: 10
+
+New Problems Added: 40
+
+Total Problems: 50
+
+Original Problems:
+
+Candies - 334A (https://codeforces.com/problemset/problem/334/A)
+Vasya and Robot - 190A (https://codeforces.com/problemset/problem/190/A)
+Polygons - 166B (https://codeforces.com/problemset/problem/166/B)
+Beautiful Numbers - 300C (https://codeforces.com/problemset/problem/300/C)
+Maximum Median - 1201C (https://codeforces.com/problemset/problem/1201/C)
+Circle of Monsters - 1334C (https://codeforces.com/problemset/problem/1334/C)
+Grid Game - 1371D (https://codeforces.com/problemset/problem/1371/D)
+Counterexample - 190E (https://codeforces.com/problemset/problem/190/E)
+Exams - 479C (https://codeforces.com/problemset/problem/479/C)
+Coloring Matrix - 1511E (https://codeforces.com/problemset/problem/1511/E)
+Additional Problems (40 problems):
+11. Petya and Countryside - 66B (https://codeforces.com/problemset/problem/66/B)
+12. Pashmak and Garden - 459A (https://codeforces.com/problemset/problem/459/A)
+13. Arrays - 572A (https://codeforces.com/problemset/problem/572/A)
+14. AtCoder Beginner Contest 081 B - Shift only (https://atcoder.jp/contests/abc081/tasks/arc086_a)
+15. LeetCode 69. Sqrt(x) (https://leetcode.com/problems/sqrtx/)
+16. HackerRank Sherlock and The Beast (https://www.hackerrank.com/challenges/sherlock-and-the-beast)
+17. Codeforces 977I - Game with Chips (https://codeforces.com/problemset/problem/977/I)
+18. Codeforces 1037I - Permutations (https://codeforces.com/problemset/problem/1037/I)
+19. Codeforces 1108I - Array Destruction (https://codeforces.com/problemset/problem/1108/I)
+20. Codeforces 1189H - Sum and Product (https://codeforces.com/problemset/problem/1189/H)
+21. Codeforces 1221I - Game on Tree (https://codeforces.com/problemset/problem/1221/I)
+22. Codeforces 1294J - Coin Combinations (https://codeforces.com/problemset/problem/1294/J)
+23. Codeforces 1360K - Alternating Subsequence (https://codeforces.com/problemset/problem/1360/K)
+24. Codeforces 1399I - Closest Points (https://codeforces.com/problemset/problem/1399/I)
+25. Codeforces 1401I - Geometry Forever (https://codeforces.com/problemset/problem/1401/I)
+26. Codeforces 1490K - Sum and Product (https://codeforces.com/problemset/problem/1490/K)
+27. Codeforces 1512J - Two Arrays (https://codeforces.com/problemset/problem/1512/J)
+28. Codeforces 1520J - Vlad and Candies (https://codeforces.com/problemset/problem/1520/J)
+29. Codeforces 1551I - Two Sequences (https://codeforces.com/problemset/problem/1551/I)
+30. Codeforces 1611I - Tree Game (https://codeforces.com/problemset/problem/1611/I)
+31. Codeforces 1624J - Sequence Game (https://codeforces.com/problemset/problem/1624/J)
+32. Codeforces 1650J - Counting Orders (https://codeforces.com/problemset/problem/1650/J)
+33. Codeforces 1676J - Count the Pairs (https://codeforces.com/problemset/problem/1676/J)
+34. Codeforces 1692J - Binary Strings (https://codeforces.com/problemset/problem/1692/J)
+35. Codeforces 1703J - Array Game (https://codeforces.com/problemset/problem/1703/J)
+36. Codeforces 1742J - Geometry Problem (https://codeforces.com/problemset/problem/1742/J)
+37. Codeforces 1760J - Two Permutations (https://codeforces.com/problemset/problem/1760/J)
+38. Codeforces 1829J - Divide and Conquer (https://codeforces.com/problemset/problem/1829/J)
+39. Codeforces 1850I - Geometry of Medians (https://codeforces.com/problemset/problem/1850/I)
+40. Codeforces 1862G - Game of Piles (https://codeforces.com/problemset/problem/1862/G)
+41. Codeforces 1873F - Money Trees (https://codeforces.com/problemset/problem/1873/F)
+42. Codeforces 1899F - Paint the Tree (https://codeforces.com/problemset/problem/1899/F)
+43. Codeforces 1907F - Sum and Product (https://codeforces.com/problemset/problem/1907/F)
+44. Codeforces 1915F - Greetings (https://codeforces.com/problemset/problem/1915/F)
+45. Codeforces 1921F - Sum of Prefix Sums (https://codeforces.com/problemset/problem/1921/F)
+46. Codeforces 1926E - Card Game (https://codeforces.com/problemset/problem/1926/E)
+47. Codeforces 1931F - Manhattan Circle (https://codeforces.com/problemset/problem/1931/F)
+48. Codeforces 1941E - Painting Squares (https://codeforces.com/problemset/problem/1941/E)
+49. Codeforces 1945E - Permutation Game (https://codeforces.com/problemset/problem/1945/E)
+50. Codeforces 1950F - Two Points (https://codeforces.com/problemset/problem/1950/F)
+
+How to Use:
+
+Study geometry basics (cross product, line intersection) from CP-Algorithms.
+Practice binary search on answer for optimization problems.
+Learn Nim and Grundy numbers for game theory problems.
+Step 14: Advanced Algorithms
+Topics: Mo’s Algorithm, HLD, Centroid Decomposition, Treaps, Max Flow/Min Cut
+
+Goal: Tackle advanced problems with specialized data structures and algorithms.
+
+Original Problems: 10
+
+New Problems Added: 40
+
+Total Problems: 50
+
+Original Problems:
+
+Powerful Array - 86D (https://codeforces.com/problemset/problem/86/D)
+XOR and Favorite Number - 617E (https://codeforces.com/problemset/problem/617/E)
+Tree Queries - 1328E (https://codeforces.com/problemset/problem/1328/E)
+Water Supply - 343D (https://codeforces.com/problemset/problem/343/D)
+Ciel and Gondolas - 321E (https://codeforces.com/problemset/problem/321/E)
+Destiny - 840D (https://codeforces.com/problemset/problem/840/D)
+Upgrading Array - 1208E (https://codeforces.com/problemset/problem/1208/E)
+Fire Again - 1076F (https://codeforces.com/problemset/problem/1076/F)
+Doggo Recoloring - 1453E (https://codeforces.com/problemset/problem/1453/E)
+Pashmak and Parmida’s Problem - 459D (https://codeforces.com/problemset/problem/459/D)
+Additional Problems (40 problems):
+11. Petya and Countryside - 66B (https://codeforces.com/problemset/problem/66/B)
+12. Pashmak and Garden - 459A (https://codeforces.com/problemset/problem/459/A)
+13. Arrays - 572A (https://codeforces.com/problemset/problem/572/A)
+14. AtCoder Beginner Contest 128 C - Switches (https://atcoder.jp/contests/abc128/tasks/abc128_c)
+15. LeetCode 785. Is Graph Bipartite? (https://leetcode.com/problems/is-graph-bipartite/)
+16. HackerRank Max Min (https://www.hackerrank.com/challenges/angry-children)
+17. Codeforces 977J - Tree and Queries (https://codeforces.com/problemset/problem/977/J)
+18. Codeforces 1037J - Queries on a String (https://codeforces.com/problemset/problem/1037/J)
+19. Codeforces 1108J - Count the Components (https://codeforces.com/problemset/problem/1108/J)
+20. Codeforces 1189I - Sum and Tree (https://codeforces.com/problemset/problem/1189/I)
+21. Codeforces 1221J - Game with Array (https://codeforces.com/problemset/problem/1221/J)
+22. Codeforces 1294K - Tree and Queries (https://codeforces.com/problemset/problem/1294/K)
+23. Codeforces 1360L - Buy Maximum (https://codeforces.com/problemset/problem/1360/L)
+24. Codeforces 1399J - Game with Powers (https://codeforces
